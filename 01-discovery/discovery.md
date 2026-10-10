@@ -2,91 +2,113 @@
 
 ## 1. Facts
 
-- The college is considering a system for booking shared equipment such as laptops, cameras and projectors.
+- The college is considering a system for booking shared equipment.
+- Equipment includes laptops, cameras, projectors and specialist equipment.
 - Bookings are currently managed through emails, spreadsheets and informal arrangements.
 - Equipment can be double-booked.
 - People are sometimes unsure whether equipment is available.
 - Staff spend time checking bookings manually.
-- Equipment is not always returned when expected.
+- Equipment may not be returned when expected.
 
 ## 2. Assumptions
 
 - The college has a large number of students and staff.
-- Students and staff may need different levels of access.
-- The college has some form of IT support.
+- Students and staff may need different permissions.
+- The college has IT support to help maintain its systems.
+- The college may have a limited budget for a new system.
 
-These are assumptions and would need to be confirmed.
+These assumptions need to be checked before making decisions.
 
 ## 3. Unknowns
 
 - How many students and staff attend the college?
 - Which classes need equipment most often?
-- How much equipment does the college have?
-- What is the available budget?
+- How many laptops, cameras and projectors are available?
+- What is the budget for the proposed system?
 - Who is allowed to book specialist equipment?
 
 ## 4. Stakeholders
 
-- Students
-- Lecturers and other staff
-- Equipment technicians
-- College management
-- IT support staff
-- Equipment suppliers
+- Students — need to find and book available equipment.
+- Lecturers — need equipment for classes.
+- Equipment technicians — manage equipment and returns.
+- College management — oversee college resources.
+- IT support staff — may help maintain the system.
+- Equipment suppliers — may provide or replace equipment.
 
 ## 5. Goals
 
 The system should help the college to:
 
-- Organise equipment bookings and reduce double-booking.
-- Make it easier to check equipment availability.
+- Reduce double-bookings.
+- Make equipment availability easier to check.
 - Reduce the time staff spend managing bookings.
-- Keep track of equipment and expected return dates.
 
 ## 6. Scope
 
-**Likely in scope:**
+### Likely in scope
+
 - Checking equipment availability.
 - Recording equipment bookings.
-- Keeping track of equipment and bookings.
+- Keeping track of expected return dates.
+- Helping staff identify equipment that has not been returned on time.
 
-**Out of scope or not yet established:**
-- Building a mobile app.
-- Buying new equipment.
-- Integrating the system with other college software.
+### Out of scope or not yet established
 
-These areas would need further investigation before deciding whether they are required.
+- Developing a mobile app.
+- Purchasing new equipment.
+- Connecting the system to other college software.
+
+These features should not be included without further evidence that they are needed.
 
 ## 7. Candidate Requirements
 
-**Functional requirements**
+### Functional requirements
 
-- The system should allow authorised users to request equipment for a specified date and time.
-- The system should allow users to check whether equipment is available.
-- The system should record bookings and expected return dates.
-- The system should help staff identify equipment that has not been returned when expected.
+- FR-01: The system should allow authorised users to check equipment availability.
+- FR-02: The system should allow authorised users to request equipment for a specified date and time.
+- FR-03: The system should record equipment bookings and expected return dates.
+- FR-04: The system should allow authorised staff to view equipment bookings.
 
-**Non-functional requirements**
+### Non-functional requirements
 
-- The system should be easy to use, so students and staff can complete bookings without unnecessary assistance.
-- The system should protect booking information from unauthorised access.
+- NFR-01: The system should be easy to use so that users can complete common booking tasks without unnecessary assistance.
+- NFR-02: The system should prevent unauthorised users from accessing or changing booking information.
+
+These are candidate requirements and may change when more information is available.
 
 ## 8. Requirement Surgery
 
-**Requirement 1:** The system should be easy to use.
+### R1: The system should be easy to use.
 
-**Problem:** Easy to use is vague because different users may find different things difficult.
+**What is wrong?**
 
-**Improvement:** The system should allow users to request equipment by selecting the equipment and the required date and time.
+Easy to use is vague because different users may have different levels of experience.
 
-**Requirement 2:** The system should be secure.
+**Improved version:**
 
-**Problem:** It does not explain what security measures are needed.
+The system should allow authorised users to check equipment availability for a selected date.
 
-**Improvement:** The system should prevent unauthorised users from accessing or changing booking information.
+**How could it be checked?**
+
+Ask users to check availability for a date and see whether they can complete the task successfully.
+
+### R2: The system should be secure.
+
+**What is wrong?**
+
+The requirement does not explain what information needs protection or who should have access.
+
+**Improved version:**
+
+The system should prevent unauthorised users from viewing or changing booking records.
+
+**How could it be checked?**
+
+Test whether a user without the required permissions can access or change a booking.
 
 ## 9. Reflection
 
-This practical helped me understand the importance of identifying the problem before deciding how to solve it. I also learned that assumptions and unknowns need to be recorded rather than treated as facts.
+This practical helped me understand why it is important to investigate a problem before deciding on a solution. I also learned that assumptions and unknowns should be recorded instead of treated as facts.
 
-More information is needed about who can book equipment, how bookings are currently managed and what happens when equipment is returned late.
+I still need to find out who is allowed to book equipment, what information must be recorded and what happens when equipment is returned late.
