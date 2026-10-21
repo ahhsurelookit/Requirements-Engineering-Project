@@ -67,7 +67,7 @@ FR01 is the most directly supported candidate requirement from the Week 3 lab. I
 
 ### 3.1 Use Case Diagram (UC-D01)
 
-[`../requirements/UC-DO1-use-case-diagram.drawio`](../requirements/UC-DO1-use-case-diagram.drawio`)
+[UC-D01 Use Case Diagram](../diagrams/UC-D01-use-case-diagram.drawio)
 
 ### 3.2 One Use Case Narrative
 
@@ -83,7 +83,7 @@ FR01 is the most directly supported candidate requirement from the Week 3 lab. I
 
 ### 3.3 Activity Diagram (AD01)
 
-[`../requirements/AD01-activity-diagram.drawio`](../requirements/AD01-activity-diagram.drawio`)
+[AD01 Activity Diagram](../diagrams/AD01-activity-diagram.drawio)
 
 ## Next sections to complete
 
