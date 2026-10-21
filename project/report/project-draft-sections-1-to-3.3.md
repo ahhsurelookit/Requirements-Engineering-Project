@@ -60,15 +60,14 @@ See [`../requirements/requirements-catalogue.md`](../requirements/requirements-c
 
 ### 2.1 Requirements analysis notes
 
-FR01 is the most directly supported candidate requirement from the Week 3 lab. It identifies the function but leaves the phrase “authorised user” undefined. The role and the appointment details that may be viewed must be clarified before the requirement is finalised. FR09 and NFR02 describe access control, but their detailed rules depend on that same clarification.
+FR01 is the most directly supported candidate requirement from the Week 3 lab. It identifies the function but leaves the phrase “authorised user” undefined. The role and the appointment details that may be viewed must be clarified before the requirement is finalised. FR05 and NFR02 describe access control, but their detailed rules depend on that same clarification.
 
-FR04, FR05, FR06 and FR11 describe plausible capabilities, but the exact booking process, required fields, staff responsibilities and cancellation rules have not been confirmed. NFR04 needs a measurable success criterion after a walkthrough is designed. The catalogue should be updated as new evidence is obtained rather than treating every proposal as agreed.
 
 ## 3. Requirements Modelling
 
 ### 3.1 Use Case Diagram (UC-D01)
 
-Insert `../diagrams/UC-D01-use-case-diagram.drawio` (export it as a PNG from diagrams.net for the Word report). The diagram shows the actor “Authorised user” outside the system boundary and the use case “View scheduled student support appointments” inside it. The exact role and permissions remain open questions.
+[`../requirements/UC-DO1-use-case-diagram.drawio`](../requirements/UC-DO1-use-case-diagram.drawio`)
 
 ### 3.2 One Use Case Narrative
 
@@ -80,11 +79,11 @@ Insert `../diagrams/UC-D01-use-case-diagram.drawio` (export it as a PNG from dia
 | Main successful flow | 1. User opens the appointment schedule. 2. User selects a date. 3. System checks the user's permission. 4. If permission is granted, the system displays scheduled appointments for the selected date. |
 | Alternative / exception flows | If permission is not granted, appointment details are not displayed. The exact message or next action is not specified and needs confirmation. |
 | Outcome / postconditions | An authorised user can view the scheduled appointment information they are permitted to access. |
-| Related requirements | FR01, FR09, NFR02 |
+| Related requirements | FR01, FR05, NFR02 |
 
 ### 3.3 Activity Diagram (AD01)
 
-Insert `../diagrams/AD01-activity-diagram.drawio` (export it as a PNG from diagrams.net for the Word report). The workflow starts when a user opens the appointment schedule, selects a date and the system checks permissions. If permission is granted, the scheduled appointments for that date are displayed. If access is denied, appointment details are not displayed. The exact roles and denial response remain open questions.
+[`../requirements/AD01-activity-diagram.drawio`](../requirements/AD01-activity-diagram.drawio`)
 
 ## Next sections to complete
 
