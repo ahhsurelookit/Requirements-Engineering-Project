@@ -1,9 +1,6 @@
 # Requirements Engineering Project — Draft Sections 1–3.3
 
 **Scenario B: College Student Support Appointment System**
-
-> **Draft status:** This document is a working draft for lecturer feedback. Proposed requirements and unconfirmed rules are labelled. It does not claim stakeholder interview results or validation that has not occurred. Transfer this content into the supplied Word report template and adjust it after feedback.
-
 ## 1. Problem, Stakeholders and Goals
 
 ### 1.1 Background and current situation
