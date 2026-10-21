@@ -4,7 +4,7 @@
 
 - The college is thinking about implementing a system to book shared equipment.
 - Laptops, cameras, projectors, specialist equipment
-- Currently bookings are made by emails, spreadsheets, ad hoc's
+- Currently bookings are made by emails or spreadsheets.
 - Equipment can be booked out twice.
 - Unclear if equipment is available.
 - Manual checking of bookings by staff.
