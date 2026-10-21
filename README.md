@@ -30,4 +30,5 @@ This repository contains my work for the Requirements Engineering module. It doc
 - Week 4: UML use case modelling
 - Week 5: Activity diagrams
 
-## NoteThere may be some additional requirements, actors, processes... still to be cleared up as things move forward. This repo might not be quite there yet, but I'll be adding to it as the weeks progress, and hopefully have everything buttoned up before the project deadline comes. Any feedback on places I may need to do better, and/or errors I might have made would be super helpful!
+## Note
+There may be some additional requirements, actors, processes... still to be cleared up as things move forward. This repo might not be quite there yet, but I'll be adding to it as the weeks progress, and hopefully have everything buttoned up before the project deadline comes. Any feedback on places I may need to do better, and/or errors I might have made would be super helpful!
