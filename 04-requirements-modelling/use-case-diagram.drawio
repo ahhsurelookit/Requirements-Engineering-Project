@@ -1,0 +1,36 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="AD01" name="AD01 Activity Diagram">
+    <mxGraphModel dx="910" dy="289" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingTop=18;fontSize=28;strokeWidth=3;fillColor=#ffffff;" value="Student Support Appointment System" vertex="1">
+          <mxGeometry height="620" width="710" x="2179.4615384615386" y="1602.7008025340542" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=23;strokeWidth=3;fillColor=#ffffff;" value="View student support&lt;br&gt;appointments" vertex="1">
+          <mxGeometry height="150" width="490" x="2284.4615384615386" y="1827.7008025340542" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-14" parent="1" style="line;strokeWidth=3;html=1;rounded=0;" value="" vertex="1">
+          <mxGeometry height="55" width="-36" x="1958.4615384615386" y="2005.7008025340542" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-16" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" value="Authorised user" vertex="1">
+          <mxGeometry height="35" width="210" x="1810.0015384615385" y="2040.0008025340542" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-17" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=3;" target="iT-l3K3Gj_7LzErcjro5-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1958.4615379999996" y="1945.7008029999997" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=24;fontSize=20;strokeWidth=2;fillColor=#ffffff;" value="Question:&lt;br&gt;&lt;br&gt;Who can see the&lt;br&gt;appointments and&lt;br&gt;what details can&lt;br&gt;they see?" vertex="1">
+          <mxGeometry height="275" width="275" x="2937.4615384615386" y="1777.7008025340542" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-19" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" value="Need to check which users can see the appointment details." vertex="1">
+          <mxGeometry height="40" width="900" x="2089.4615384615386" y="2267.700802534054" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-20" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="230" width="100" x="1860" y="1797.7" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
