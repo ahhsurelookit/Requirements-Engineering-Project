@@ -2,13 +2,13 @@
 
 ## 1. Facts
 
-- The college is considering a system for booking shared equipment.
-- Equipment includes laptops, cameras, projectors and specialist equipment.
-- Bookings are currently managed through emails, spreadsheets and informal arrangements.
-- Equipment can be double-booked.
-- People are sometimes unsure whether equipment is available.
-- Staff spend time checking bookings manually.
-- Equipment may not be returned when expected.
+- The college is thinking about implementing a system to book shared equipment.
+- Laptops, cameras, projectors, specialist equipment
+- Currently bookings are made by emails, spreadsheets, ad hoc's
+- Equipment can be booked out twice.
+- Unclear if equipment is available.
+- Manual checking of bookings by staff.
+- Equipment not returned as expected.
 
 ## 2. Assumptions
 
