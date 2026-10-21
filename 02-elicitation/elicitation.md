@@ -75,15 +75,19 @@ Possible sources of information include:
 
 ## 6. Elicitation Questions
 
-These questions could be asked during stakeholder interviews.
+These are questions you may ask in stakeholder interviews.
 
-1. How are student support appointments currently arranged?
-2. What problems do students experience when trying to arrange an appointment?
-3. What happens when a student needs to cancel or change an appointment?
-4. What information needs to be recorded when an appointment is booked?
-5. Who should be allowed to view or change appointment information?
+How are student support appointments scheduled?
 
-These questions aim to understand the current process without assuming a particular solution.
+What problems do students encounter when scheduling an appointment?
+
+What occurs when a student needs to reschedule or cancel an appointment?
+
+What information needs to be captured when scheduling an appointment?
+
+Who should have access to view or modify appointment information?
+
+These are all questions that are designed to gain an understanding of current process. Not asking questions that will predispose a certain solution.
 
 ## 7. Mini Stakeholder Interview
 
