@@ -16,7 +16,8 @@
 ## More to be done and added.
 
 ## Notes
-- The catalogue contains 18 candidate requirements (12 functional and 6 non-functional/quality requirements).
+- The catalogue contains 8 candidate requirements (5 functional and 3 non-functional/quality requirements).
 - These are draft proposals to help structure the project, not evidence that stakeholders have agreed to every feature.
-- FR01 is the strongest direct link to the Week 3 lab. FR09/NFR02 express the access-control constraint that must be clarified.
+- FR01 is the strongest direct link to the Week 3 lab. FR05/NFR02 express the access-control constraint that must be clarified.
+- More is to be done in the coming days and weeks.
 - Confirm the exact user roles, appointment information, services, appointment types, booking process, cancellation rules and required personal data before treating relevant requirements as final.
