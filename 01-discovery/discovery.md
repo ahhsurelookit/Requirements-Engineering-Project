@@ -38,11 +38,11 @@ These assumptions need to be checked before making decisions.
 
 ## 5. Goals
 
-The system should help the college to:
+How will the system help the college:
 
-- Reduce double-bookings.
-- Make equipment availability easier to check.
-- Reduce the time staff spend managing bookings.
+Help prevent double bookings
+Find out whether equipment is available more easily
+Spend less time for the staff having to manage the bookings
 
 ## 6. Scope
 
