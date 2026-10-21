@@ -56,7 +56,7 @@ Important questions include: “Which roles may view appointment details, and wh
 
 ## 2. Requirements Catalogue
 
-See [`../requirements/requirements-catalogue.md`](../requirements/requirements-catalogue.md) for the 18-item draft catalogue. Requirements marked proposed must be confirmed.
+See [`../requirements/requirements-catalogue.md`](../requirements/requirements-catalogue.md).
 
 ### 2.1 Requirements analysis notes
 
