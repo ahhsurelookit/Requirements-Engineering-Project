@@ -22,28 +22,19 @@ The following statements relate to the College Equipment Booking System worked e
 ## 3. Requirements Surgery
 
 ### Requirement 1: The system shall be user-friendly.
+Problem: what is a "user-friendly"? it depends on a person. some people think it's easy, some people think it's hard.
+Clarifying question: for which user tasks the ease of completion is required?
+Missing information: target users. measurment of ease of use?
 
-**Problem:** User-friendly is ambiguous. What one person finds easy, another person might find difficult.
+Requirement 2: the system shall inform users about the bookings.
+Problem: not clear. who are the users that are informed about the bookings. how is the informing done?
+Clarifying question: for which events the notification should be sent and to whom?
+Missing information: receivers. way of sending. events for notifications.
 
-**Clarification question:** Which user tasks should be easy to complete?
-
-**Missing information:** Who are the target users, and how will ease of use be measured?
-
-### Requirement 2: The system shall notify users about bookings.
-
-**Problem:** It does not explain which users receive notifications or how they are sent.
-
-**Clarification question:** Which events should trigger a notification, and who should receive it?
-
-**Missing information:** The recipients, delivery method and events that trigger notifications.
-
-### Requirement 3: The system shall allow staff to create, edit and delete bookings and send reminders.
-
-**Problem:** This combines several different functions into one requirement.
-
-**Clarification question:** Which staff members should be allowed to create, change or cancel bookings?
-
-**Missing information:** User permissions and the rules for sending reminders.
+Requirement 3: the system shall enable staff to make, modify, delete bookings, send reminders
+Problem: there is multiple things in the same requirement. it's mixed.
+Clarifying question: who from the staff can make, modify or cancel bookings?
+Missing information: user permissions. rules for sending reminders.
 
 ## 4. Functional Requirements
 
