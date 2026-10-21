@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="AD01" name="AD01 Activity Diagram">
+    <mxGraphModel dx="-650" dy="-15" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-42" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" value="College Equipment Booking System - Create Booking" vertex="1">
+          <mxGeometry height="40" width="780" x="2427.5" y="1717.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-43" parent="1" style="ellipse;aspect=fixed;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="22" width="28" x="2813.5" y="1784.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=17;strokeWidth=2;fillColor=#ffffff;" value="Select Equipment" vertex="1">
+          <mxGeometry height="52" width="268" x="2694.5" y="1841.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=17;strokeWidth=2;fillColor=#ffffff;" value="Select Date" vertex="1">
+          <mxGeometry height="52" width="268" x="2694.5" y="1938.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=17;strokeWidth=2;fillColor=#ffffff;" value="Check Availability" vertex="1">
+          <mxGeometry height="52" width="268" x="2694.5" y="2035.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-47" parent="1" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;strokeWidth=2;fillColor=#ffffff;" value="Is equipment&lt;br&gt;available?" vertex="1">
+          <mxGeometry height="102" width="156" x="2750.5" y="2127.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=17;strokeWidth=2;fillColor=#ffffff;" value="Enter Booking Details" vertex="1">
+          <mxGeometry height="52" width="278" x="2384.5" y="2271.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=17;strokeWidth=2;fillColor=#ffffff;" value="Submit Booking" vertex="1">
+          <mxGeometry height="52" width="278" x="2384.5" y="2363.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=17;strokeWidth=2;fillColor=#ffffff;" value="Booking Recorded" vertex="1">
+          <mxGeometry height="52" width="278" x="2384.5" y="2456.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=22;fontSize=15;strokeWidth=2;fillColor=#ffffff;" value="UNKNOWN&lt;br&gt;&lt;br&gt;What should happen when&lt;br&gt;the requested equipment&lt;br&gt;is unavailable?" vertex="1">
+          <mxGeometry height="134" width="312" x="3005.5" y="2285.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-52" parent="1" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="35" width="42" x="2502.5" y="2564.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-53" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" value="The unavailable path needs stakeholder clarification; no solution has been assumed." vertex="1">
+          <mxGeometry height="35" width="740" x="2447.5" y="2675.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-54" edge="1" parent="1" source="iT-l3K3Gj_7LzErcjro5-43" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=15;labelBackgroundColor=#ffffff;" target="iT-l3K3Gj_7LzErcjro5-44" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-55" edge="1" parent="1" source="iT-l3K3Gj_7LzErcjro5-44" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=15;labelBackgroundColor=#ffffff;" target="iT-l3K3Gj_7LzErcjro5-45" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-56" edge="1" parent="1" source="iT-l3K3Gj_7LzErcjro5-45" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=15;labelBackgroundColor=#ffffff;" target="iT-l3K3Gj_7LzErcjro5-46" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-57" edge="1" parent="1" source="iT-l3K3Gj_7LzErcjro5-46" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=15;labelBackgroundColor=#ffffff;" target="iT-l3K3Gj_7LzErcjro5-47" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-58" edge="1" parent="1" source="iT-l3K3Gj_7LzErcjro5-47" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=15;labelBackgroundColor=#ffffff;exitX=0.1;exitY=0.8;entryX=1;entryY=0.5;" target="iT-l3K3Gj_7LzErcjro5-48" value="[available]">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2703.5" y="2237.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-59" edge="1" parent="1" source="iT-l3K3Gj_7LzErcjro5-47" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=15;labelBackgroundColor=#ffffff;exitX=0.9;exitY=0.8;entryX=0.2;entryY=0;" target="iT-l3K3Gj_7LzErcjro5-51" value="[not available]">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2947.5" y="2247.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-60" edge="1" parent="1" source="iT-l3K3Gj_7LzErcjro5-48" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=15;labelBackgroundColor=#ffffff;" target="iT-l3K3Gj_7LzErcjro5-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-61" edge="1" parent="1" source="iT-l3K3Gj_7LzErcjro5-49" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=15;labelBackgroundColor=#ffffff;" target="iT-l3K3Gj_7LzErcjro5-50" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iT-l3K3Gj_7LzErcjro5-62" edge="1" parent="1" source="iT-l3K3Gj_7LzErcjro5-50" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=15;labelBackgroundColor=#ffffff;" target="iT-l3K3Gj_7LzErcjro5-52" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
