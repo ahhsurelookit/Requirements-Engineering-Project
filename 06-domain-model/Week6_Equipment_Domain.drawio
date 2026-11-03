@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="Week6_Equipment_Domain" name="Week6_Equipment_Domain">
+    <mxGraphModel dx="1000" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1080" pageHeight="790" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t2" value="College Equipment Booking System — Conceptual Class Diagram" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;resizable=0;points=[];autosize=0;fontSize=20;fontColor=#000000;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="18" width="990" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t3" value="Week 6 · Domain model for FR01–FR06 · &lt;b&gt;PROVISIONAL / INCOMPLETE&lt;/b&gt; — unlabelled association ends are unresolved (see OPEN QUESTIONS)" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;resizable=0;points=[];autosize=0;fontSize=12;fontColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="990" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="cls4" value="Student" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#000000;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="146" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="cls4_a0" value="" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="cls4">
+          <mxGeometry y="26" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cls5" value="Booking" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#000000;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="370" y="120" width="330" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="cls5_a0" value="startDate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="cls5">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cls5_a1" value="endDate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="cls5">
+          <mxGeometry y="52" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cls5_a2" value="status &lt;i&gt;(candidate — confirmation required)&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="cls5">
+          <mxGeometry y="78" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cls6" value="Equipment" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#000000;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="860" y="146" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="cls6_a0" value="" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="cls6">
+          <mxGeometry y="26" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cls7" value="Staff Member" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#000000;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="415" y="330" width="240" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="cls7_a0" value="" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="cls7">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" value="makes" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1.5;labelBackgroundColor=#ffffff;fontSize=13;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cls4" target="cls5">
+          <mxGeometry x="0.000" relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" value="identifies" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1.5;labelBackgroundColor=#ffffff;fontSize=13;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cls5" target="cls6">
+          <mxGeometry x="0.000" relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9_m0" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBackgroundColor=none;" vertex="1" connectable="0" parent="e9">
+          <mxGeometry x="0.825" relative="1" as="geometry">
+            <mxPoint x="0" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" value="reviews" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1.5;labelBackgroundColor=#ffffff;fontSize=13;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cls7" target="cls5">
+          <mxGeometry x="0.000" relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" value="manages availability of" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1.5;labelBackgroundColor=#ffffff;fontSize=13;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="cls7" target="cls6">
+          <mxGeometry x="-0.353" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="945" y="356" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t12" value="&lt;b&gt;Confirmed multiplicity: &lt;/b&gt;1 at the Equipment end of Booking—Equipment (FR02: “Each booking identifies exactly one equipment item”). All other association ends are unresolved and deliberately left unlabelled." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;resizable=0;points=[];autosize=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="408" width="990" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" value="&lt;b&gt;OPEN QUESTIONS&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Q1 Student–Booking &lt;/b&gt;(ask: lecturers, equipment technician) — Is every booking made by exactly one student, or can a group/class booking involve several? Can a student have zero bookings? FR01 only says a student may make more than one.&lt;br&gt;&lt;br&gt;&lt;b&gt;Q2 Booking–Equipment &lt;/b&gt;(ask: equipment technician) — How many bookings may reference the same equipment item over time, and may their dates overlap?&lt;br&gt;&lt;br&gt;&lt;b&gt;Q3 Staff Member–Booking &lt;/b&gt;(ask: equipment technician, service manager) — Is each booking request reviewed by exactly one staff member, or can several review it? Must every booking be reviewed?&lt;br&gt;&lt;br&gt;&lt;b&gt;Q4 Staff Member–Equipment &lt;/b&gt;(ask: equipment technician, college management) — Can several staff members manage availability of the same item? Can an item have no staff member responsible?&lt;br&gt;&lt;br&gt;&lt;b&gt;Q5 Booking status (FR06) &lt;/b&gt;(ask: equipment technician) — How is the approve/reject decision stored: a status on Booking, or a separate review record (who, when, why)? Is a “booking request” the same thing as a “booking”?&lt;br&gt;&lt;br&gt;&lt;b&gt;Q6 Student details &lt;/b&gt;(ask: equipment technician, data protection representative) — Does the system need to record a student ID, name or email address? None is stated in FR01–FR06." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=14;align=left;verticalAlign=top;spacing=8;spacingTop=2;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="462" width="990" height="300" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

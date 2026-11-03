@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="Week6_Workshop_Domain" name="Week6_Workshop_Domain">
+    <mxGraphModel dx="1000" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1020" pageHeight="460" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t2" value="Campus Workshop Registration — Conceptual Class Diagram" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;resizable=0;points=[];autosize=0;fontSize=20;fontColor=#000000;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="18" width="990" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t3" value="Week 6 · Part G · all four association-end multiplicities are justified by WR03–WR06" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;resizable=0;points=[];autosize=0;fontSize=12;fontColor=#444444;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="990" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="cls4" value="Student" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#000000;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="200" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="cls4_a0" value="studentId {id}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="cls4">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cls4_a1" value="name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="cls4">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cls5" value="Registration" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#000000;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="130" width="220" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="cls5_a0" value="registrationDate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="cls5">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cls5_a1" value="status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="cls5">
+          <mxGeometry y="52" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cls6" value="Workshop" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#000000;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="780" y="130" width="200" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="cls6_a0" value="workshopCode {id}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="cls6">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cls6_a1" value="title" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="cls6">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" value="makes" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1.5;labelBackgroundColor=#ffffff;fontSize=13;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cls4" target="cls5">
+          <mxGeometry x="0.000" relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7_m0" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBackgroundColor=none;" vertex="1" connectable="0" parent="e7">
+          <mxGeometry x="-0.800" relative="1" as="geometry">
+            <mxPoint x="0" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7_m1" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBackgroundColor=none;" vertex="1" connectable="0" parent="e7">
+          <mxGeometry x="0.700" relative="1" as="geometry">
+            <mxPoint x="0" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" value="is for" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1.5;labelBackgroundColor=#ffffff;fontSize=13;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cls5" target="cls6">
+          <mxGeometry x="0.000" relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8_m0" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBackgroundColor=none;" vertex="1" connectable="0" parent="e8">
+          <mxGeometry x="-0.700" relative="1" as="geometry">
+            <mxPoint x="0" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8_m1" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBackgroundColor=none;" vertex="1" connectable="0" parent="e8">
+          <mxGeometry x="0.825" relative="1" as="geometry">
+            <mxPoint x="0" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n9" value="&lt;b&gt;MULTIPLICITY EVIDENCE&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;1 at Student end&lt;/b&gt; — WR04: each registration belongs to exactly one student.&lt;br&gt;&lt;br&gt;&lt;b&gt;0..* at Registration end (Student–Registration)&lt;/b&gt; — WR03: a student may have zero or many workshop registrations.&lt;br&gt;&lt;br&gt;&lt;b&gt;1 at Workshop end&lt;/b&gt; — WR05: each registration is for exactly one workshop.&lt;br&gt;&lt;br&gt;&lt;b&gt;0..* at Registration end (Registration–Workshop)&lt;/b&gt; — WR06: a workshop may have zero or many registrations.&lt;br&gt;&lt;br&gt;&lt;b&gt;Attributes: &lt;/b&gt;studentId and name (WR01); workshopCode and title (WR02); registrationDate and status (WR07). {id} marks the unique identifier required by WR01 and WR02." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=14;align=left;verticalAlign=top;spacing=8;spacingTop=2;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="262" width="940" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
