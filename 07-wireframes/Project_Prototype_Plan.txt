@@ -1,1 +1,98 @@
 
+PROJECT PROTOTYPE PLAN - Week 7
+College Student Support Appointment System (Scenario B)
+
+Status: initial plan only. No stakeholder has confirmed this journey or any screen.
+Requirement IDs below come from project/requirements/requirements-catalogue.md and
+project/report/project-draft-sections-1-to-3.3.md. The teaching-case evidence
+(EB01-EB05, WX01-WX03) is not used as project requirements.
+
+
+1. CHOSEN USER JOURNEY
+
+Actor and goal (one sentence):
+An authorised user (exact role to be confirmed, Q01) wants to view the student
+support appointments scheduled for a particular date that they are permitted to see.
+
+Why this journey:
+- It is the most directly supported requirement in the catalogue (FR01).
+- It already has a use case narrative (UC01), a use case diagram (UC-D01) and an
+  activity diagram (AD01), so the prototype can be checked against those models.
+- It raises the main unresolved issues: which roles may view appointments and what
+  each can see (Q01, FR05, NFR02), and what personal information is necessary (Q03, NFR01).
+
+
+2. POSSIBLE SCREENS (4-6)
+
+1. Appointment schedule - select a date
+   Linked to: FR01; UC01 steps 1-2; AD01 "Open appointment schedule" and "Select a date".
+   Status: supported, but FR01 is not stakeholder-confirmed.
+
+2. Scheduled appointments for the selected date
+   Linked to: FR01, FR04 (date and time of each appointment), FR03 (support service).
+   Status: supported. Which details each role may see is open (Q01, FR05).
+
+3. Appointment details
+   Linked to: FR03, FR04, FR05, NFR01.
+   Status: CANDIDATE screen. Which details are visible, and which personal information
+   is necessary, are open (Q01, Q03).
+
+4. Access not permitted
+   Linked to: FR05, NFR02; UC01 alternative flow; AD01 "Do not display appointment details".
+   Status: the exact response is not specified, so the message needs confirming.
+
+5. No appointments on this date
+   Linked to: nothing in the catalogue yet.
+   Status: CANDIDATE requirement / open question - what is shown when nothing is scheduled?
+
+
+3. OPEN QUESTIONS THAT AFFECT THE SCREENS
+
+- Q01: Which roles may view appointment details, and what can each role see?
+  (ask: support staff / service manager)
+- Q03: What personal information is necessary to arrange an appointment?
+  (ask: support staff and the privacy contact)
+- Is login or any other precondition required before the schedule opens? UC01 leaves
+  this to be confirmed.
+- What exact message or next action is shown when permission is not granted?
+- What is shown when a selected date has no appointments?
+
+
+4. DRAFT WORDING FOR SECTION 4.1 OF THE PROJECT REPORT
+
+4.1 Selected user journey
+
+The prototype illustrates one user journey: an authorised user viewing the student
+support appointments scheduled for a chosen date. The user opens the appointment
+schedule, selects a date and, if the permission check allows it, sees the appointments
+for that date. If permission is not granted, appointment details are not shown.
+
+This journey was chosen because it is the most directly supported requirement in the
+catalogue (FR01). It already has a use case narrative (UC01), a use case diagram
+(UC-D01) and an activity diagram (AD01), so the screens can be checked against those
+models. It also exposes the main unresolved issues: which roles may view appointments
+and what each role may see (Q01, FR05, NFR02), and what personal information is
+necessary (Q03, NFR01). A prototype can make those questions concrete for stakeholders.
+
+No stakeholder has confirmed that this is the most important journey. Screens marked
+as candidates (appointment details, access not permitted, no appointments) show
+behaviour that is not yet specified and must be confirmed before it is treated as a
+requirement.
+
+
+5. RULES FOR THE PROTOTYPE
+
+- Low-fidelity only: rectangles, labels and placeholders in diagrams.net. No working software.
+- Dummy appointments and placeholder names only. Never use real student data.
+- Describe any walkthrough honestly. A classmate or self-review is not a stakeholder.
+- Mark screens that rely on unconfirmed behaviour as "candidate: needs confirmation".
+
+
+6. NEXT STEPS
+
+- Build the 4-6 connected screens (suggested location: project/prototype/).
+- Run a labelled self-review or peer walkthrough and record findings.
+- Check the screens against NFR03 (accessibility) using the applicable WCAG 2.2 criteria.
+- Add the journey and the walkthrough record to Section 4 of the project report.
+- Suggested commit message:
+  "Week 7: created low-fidelity prototype and identified open questions"
