@@ -12,7 +12,7 @@ Requirements Engineering
 College Student Support Appointment System
 
 ## Project Status
-Weeks 1–5 — Discovery, Elicitation, Requirements Analysis and Modelling
+Weeks 1–6 — Discovery, Elicitation, Requirements Analysis and Modelling
 
 ## Repository Purpose
 This repository contains my work for the Requirements Engineering module. It documents the discovery of the problem, stakeholders, requirements, and models created during the weekly practical labs.
@@ -22,7 +22,7 @@ This repository contains my work for the Requirements Engineering module. It doc
 - `02-elicitation/` — Week 2: Stakeholders and requirements elicitation
 - `03-requirements-analysis/` — Week 3: Requirements analysis and specification
 - `04-requirements-modelling/` — Weeks 4–5: Use case and activity diagrams, notes, and supporting files
-- '06-domain-model/' - 
+- `06-domain-model/` - Week 6:
 
 ## Progress
 - Week 1: Initial discovery
