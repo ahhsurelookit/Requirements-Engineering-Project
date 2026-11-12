@@ -1,0 +1,14 @@
+Project prototype plan - Week 7
+
+Scenario B: College Student Support Appointment System
+Actor/goal: A student wants to request an appointment with a student support service.
+
+Possible screens:
+1. Choose support service - FR02
+2. Appointment details (service + date/time) - FR03, FR04 / open question: how is availability shown? (not in catalogue yet)
+3. Enter your details - NFR01 / Q03: what personal info is actually needed?
+4. Missing details feedback - candidate requirement, needs confirmation
+5. Request submitted - CR02 / Q: is it confirmed straight away or does staff have to approve it?
+
+Why it matters: requesting an appointment is the main thing students would use the system for and it's where most of the current problems are (not knowing which service, unclear availability).
+Recorded in report section 4.1.
