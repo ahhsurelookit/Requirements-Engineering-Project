@@ -200,9 +200,23 @@ The six connected screens are shown below in the order a student would use them.
 
 **Screen 6 – My appointments:** The student views their upcoming and past appointments, with a Cancel option shown to explore the cancellation policy. Linked to FR10, FR12, Q01 and Q04.
 
+
+### 4.3 Walkthrough, findings and improvements
+ 
+| Review method | Finding or question | Action / status |
+|---|---|---|
+| Self-review against the requirements catalogue | Several steps in the journey had no matching requirement: showing availability, the booking summary, viewing own appointments, appointment status and cancelling. | Added FR06–FR14. Each screen now lists its linked requirements. Resolved. |
+| Self-review against NFR01 (privacy) | The optional comment box on Screen 3 could lead students to share sensitive information. | Added a warning under the box. Whether the box is needed at all depends on Q03. Partly resolved. |
+| Accessibility check against WCAG 2.2 (NFR04) | Labels, the main buttons and the confirmation message meet the checked criteria (3.3.2, 2.5.8, 1.4.1). However, the grey secondary text is below the 4.5:1 minimum in 1.4.3 Contrast (Minimum): about 4.48:1 on white and 3.86:1 inside the grey pre-filled fields on Screen 3. | Darken the grey text in the next version of the screens. Open. |
+ 
+I did a self-review for all 6 screens according to the requirements catalogue, NFR01 and some WCAG 2.2 criteria. No students/staff or other stakeholders were involved, so these are not stakeholder validation results.
+ 
+I learned that I didn't include the students' side of the booking in the original requirements, so I added FR06–FR14. I also learned that Screen 3 could gather more personal information than necessary, and thus I added a warning. One accessibility issue (grey text contrast) remains to be addressed.
+ 
+I didn't confirm a lot of things that would need to be walked through with actual stakeholders, like: is booking instant or do we need staff approval? (FR08) What's the cancellation/no-show policy? (Q01, Q04) How long is the appointment, and where is it? (Q06, Q07) What student information do we need? (Q03)
+
 ## Next sections to complete
 
-- 4.3 Walkthrough, findings and improvements: record a review that was actually carried out (self-review or peer walkthrough).
 - Section 5: explain selected NFRs already in the catalogue (NFR01–NFR06).
 - Section 6: priorities and the lecturer's actual change request; do not invent the request.
 - Section 7: 3–5 user stories with testable acceptance criteria.
