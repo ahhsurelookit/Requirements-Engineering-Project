@@ -215,9 +215,20 @@ I learned that I didn't include the students' side of the booking in the origina
  
 I didn't confirm a lot of things that would need to be walked through with actual stakeholders, like: is booking instant or do we need staff approval? (FR08) What's the cancellation/no-show policy? (Q01, Q04) How long is the appointment, and where is it? (Q06, Q07) What student information do we need? (Q03)
 
+
+## 5. Quality / Non-functional Requirements
+
+In Week 8 I changed NFR01. It used to say "agreed" information, but nothing had been agreed yet, so it now lists the fields the prototype actually asks for.
+
+| NFR ID | Why relevant? | Measurable / verifiable quality criterion |
+|---|---|---|
+| NFR01 (privacy) | A booking can show something sensitive about a student, for example that they need learning support. The less data we collect, the less there is to leak. | The booking form only asks for student number, name, college email and an optional comment. I'd check this by comparing the form's fields against that list. |
+| NFR06 (security) | Appointment details are private, so the system has to know who someone is before it shows or books anything. The access permissions in NFR02 also depend on knowing who is signed in. | If you're not signed in, the appointment screens don't open. I'd test this by trying to open them signed out, then again with a test college account. |
+
+
+
 ## Next sections to complete
 
-- Section 5: explain selected NFRs already in the catalogue (NFR01–NFR06).
 - Section 6: priorities and the lecturer's actual change request; do not invent the request.
 - Section 7: 3–5 user stories with testable acceptance criteria.
 - Section 8: traceability, review and validation evidence.
