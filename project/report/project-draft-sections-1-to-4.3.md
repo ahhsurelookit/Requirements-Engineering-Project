@@ -228,10 +228,23 @@ In Week 8 I changed NFR01. It used to say "agreed" information, but nothing had 
 | NFR06 (security) | Appointment details are private, so the system has to know who someone is before it shows or books anything. The access permissions in NFR02 also depend on knowing who is signed in. | If you're not signed in, the appointment screens don't open. I'd test this by trying to open them signed out, then again with a test college account. |
 
 
+## 6. Prioritisation and Change
+
+### 6.1 Prioritisation
+
+Priorities are provisional because only the scenario is available. Must means the release would not solve the problem without it; Should is important but has a workaround; Could is useful if there is time.
+
+| Req ID | Priority | Reason / trade-off |
+|---|---|---|
+| FR08 | Must | Booking online is the main problem in the scenario. Without it students are back to email and phone. It is still not known whether a request is booked straight away or needs staff approval, so FR08 is written to allow either. |
+| FR12 | Should | Cancelling is a problem in the scenario, but until the policy is known (Q01) students can still cancel by contacting the service. Because there is a workaround, it is Should, not Must. |
+
+### 6.2 Lecturer change request
+
+Not yet received. 
 
 ## Next sections to complete
 
-- Section 6: priorities and the lecturer's actual change request; do not invent the request.
 - Section 7: 3–5 user stories with testable acceptance criteria.
 - Section 8: traceability, review and validation evidence.
 - Section 9: actual GitHub repository link and genuine commit examples.
