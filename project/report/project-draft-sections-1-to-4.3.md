@@ -1,4 +1,4 @@
-# Requirements Engineering Project — Draft Sections 1–4.2
+# Requirements Engineering Project — Draft Sections 1–5.0
 
 **Scenario B: College Student Support Appointment System**
 
@@ -66,6 +66,8 @@ I would perform interviews to assess needs for students and staff. I would also 
 | Q05 | Open question | Can appointments be booked outside published availability slots? | Raised during domain modelling (CD01) | Confirm with support staff |
 | Q06 | Open question | Are appointments a fixed length, or does the length vary by service? | Raised during prototyping (Screen 2) | Confirm with support staff |
 | Q07 | Open question | Are appointments in person, online, or either? | Raised during prototyping (Screen 4) | Confirm with support staff |
+| A03 | Assumption | The booking form needs only student number, name, college email and an optional comment. | Not confirmed; basis of the refined NFR01 | Confirm with support staff (Q03) |
+| Q08 | Open question | Do support staff sign in with the same college account system as students, or a separate staff login? | Raised in Lab 8 (NFR06) | Confirm with IT support staff |
 
 ## 2. Requirements Catalogue
 
@@ -85,7 +87,7 @@ The questions below were used to analyse FR01 (Who, What, When, Why and How will
 - NFR03 is about reviewing the prototype, which is a process requirement rather than a property of the system. NFR04 was added as a verifiable accessibility requirement for the system itself.
 - Missing requirements: the first catalogue only covered staff viewing appointments. Domain modelling (CD01) and prototyping identified FR06–FR14 for availability, booking, appointment status, cancellation and confirmations. CR01, CR02 and CR03 are now recorded as FR14, FR08 and FR07.
 - Unconfirmed rules: FR08 (instant booking or staff approval), FR11 (status values, Q04) and FR12 (cancellation policy, Q01) depend on rules that have not been supplied. They are written so they can be verified once the rule is agreed, and remain candidate requirements.
-- Verifiability: words such as 'agreed' in FR02, NFR01 and NFR02 mean verification depends on information that is not yet confirmed. The 3-minute target in NFR05 is a proposed value that needs to be agreed with stakeholders.
+- Verifiability: words such as 'agreed' in FR02 and NFR02 mean verification depends on information that is not yet confirmed. NFR01 had the same problem and was refined in Week 8 to name the fields collected. The 3-minute target in NFR05 is a proposed value that needs to be agreed with stakeholders.
 - Possible conflict: FR14 (email confirmation) must not send more personal information than necessary, so it has to be checked against NFR01.
 
 ## 3. Requirements Modelling
