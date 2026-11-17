@@ -1,4 +1,4 @@
-# Requirements Engineering Project — Draft Sections 1–5.0
+# Requirements Engineering Project — Draft Sections 1–7
 
 **Scenario B: College Student Support Appointment System**
 
@@ -68,6 +68,7 @@ I would perform interviews to assess needs for students and staff. I would also 
 | Q07 | Open question | Are appointments in person, online, or either? | Raised during prototyping (Screen 4) | Confirm with support staff |
 | A03 | Assumption | The booking form needs only student number, name, college email and an optional comment. | Not confirmed; basis of the refined NFR01 | Confirm with support staff (Q03) |
 | Q08 | Open question | Do support staff sign in with the same college account system as students, or a separate staff login? | Raised in Lab 8 (NFR06) | Confirm with IT support staff |
+| Q09 | Open question | Is a student's appointment request confirmed straight away, or does a member of support staff approve it first? | Raised in Lab 9 (FR08, US01). Not approved. | Confirm with support staff and college management |
 
 ## 2. Requirements Catalogue
 
@@ -241,11 +242,22 @@ Priorities are provisional because only the scenario is available. Must means th
 
 ### 6.2 Lecturer change request
 
+- Section 6.2: the lecturer's actual change request;
+
 Not yet received. 
+
+
+## 7. Agile Requirements
+
+| Story ID / source | User story | Acceptance criteria |
+|---|---|---|
+| US01 / FR08 | As a student, I want to request an appointment with a support service at an available time, so that I don't have to email or phone. | AC1: Given I have chosen a service and a free time, when I confirm, then a request is recorded with my student number, the service, the date and the time.<br>AC2: After I confirm, the screen says my request has been sent. It only says "booked" if the college confirms that booking is instant (Q09). |
+| US02 / FR10 | As a student, I want to see my upcoming and past appointments, so that I know when and where to go. | AC1: Given I am signed in, when I open My appointments, then my appointments are listed with service, date, time and status.<br>AC2: No other student's appointments appear in my list. |
+| US03 / FR06 | As a student, I want to see only the free times for the service I picked, so that I don't choose a time that is already taken. | AC1: Given I have chosen a service and a date, when the times are shown, then only unbooked slots for that service appear.<br>AC2: Given another student has just booked a slot, when I refresh the times, then that slot is no longer listed (FR13). |
+
 
 ## Next sections to complete
 
-- Section 7: 3–5 user stories with testable acceptance criteria.
 - Section 8: traceability, review and validation evidence.
 - Section 9: actual GitHub repository link and genuine commit examples.
 - Section 10: accurate AI Use Record.
