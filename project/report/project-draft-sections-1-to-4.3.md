@@ -136,7 +136,7 @@ Figure CD01 illustrates the key concepts of the domain as found in the Student S
 | AvailabilitySlot 1 — 0..1 Appointment (is booked as) | FR06, FR13; goal: ease checking availability | One slot holds at most one appointment, and slots may remain unbooked. Whether appointments can be made outside published slots is unconfirmed (Q05). |
 | AvailabilitySlot 0..* — 1 SupportStaff (is offered by) | FR07; Section 1.3: staff manage availability | Each slot belongs to one staff member. Who creates slots, staff or an administrator, is unconfirmed (Q02). |
 | SupportService 1..* — 1..* SupportStaff (is delivered by) | Scenario B; FR02 | Assumes each service has at least one staff member and staff may work across more than one service. To be confirmed with support staff. |
-| Appointment.status | FR11; Q01, Q04 | Status values (e.g. booked, cancelled, attended, missed) depend on the cancellation and no-show policy, which is unconfirmed. |
+| Appointment.status | FR11; Q01, Q04, Q09 | Status values (for example waiting for confirmation, booked, cancelled, attended, missed) depend on the booking, cancellation and no-show policies, which are unconfirmed. |
 | Student attributes (studentNumber, name, collegeEmail) | NFR01, FR05, NFR02 | Assumed minimum identifying information. The required data is to be confirmed (Q03). |
 
 ### 3.5 Model consistency check
@@ -161,7 +161,7 @@ Overall, the models are consistent for the 'view appointments' flow, but modelli
 
 ### 4.1 Journey and purpose
 
-The prototype explores the journey of a student booking an appointment with a student support service. It covers choosing a service, choosing an available time, confirming their details, reviewing and confirming the booking, and then viewing their appointments. This journey was chosen because the model consistency check (Section 3.5) showed that the original models and requirements focused mainly on staff viewing scheduled appointments. The student side of the process, which is central to the problem described in Section 1, had not yet been explored.
+The prototype explores the journey of a student requesting an appointment with a student support service. It covers choosing a service, choosing an available time, checking their details, reviewing and sending the request, and then viewing their appointments. This journey was chosen because the model consistency check (Section 3.5) showed that the original models and requirements focused mainly on staff viewing scheduled appointments. The student side of the process, which is central to the problem described in Section 1, had not yet been explored.
 
 The prototype was used to investigate:
 - whether the booking steps are clear and in a sensible order
@@ -171,7 +171,7 @@ The prototype was used to investigate:
 - where cancellation and appointment status fit into the journey (FR11, FR12, Q01, Q04)
 - whether the screens raise accessibility concerns (NFR04)
 
-Requirements explored: FR02, FR03, FR04, FR06–FR14, NFR01, NFR04 and NFR06. The screens are low-fidelity greyscale wireframes, not a finished interface design. The service names, dates and times shown are example data only. Each screen includes a notes panel linking it to requirement IDs and open questions.
+Requirements explored: FR02, FR03, FR04, FR06–FR14, NFR01, NFR04 and NFR06. I made the screens in draw.io as low-fidelity wireframes, in the same style as my Week 7 lab wireframes, so they are not a finished interface design. The service names, dates and times are example data only. A yellow note beside each screen links it to requirement IDs and open questions. Source file: [`Project_Prototype.drawio`](../prototype/Project_Prototype.drawio)
 
 ### 4.2 Prototype screens
 
@@ -181,27 +181,27 @@ The six connected screens are shown below in the order a student would use them.
 
 ![Screen 1 – Choose a service](../prototype/screen1.png)
 
-**Screen 1 – Choose a service:** The student selects the support service they need. Linked to FR02. A 'help choosing' option was added because a student may not know which service fits their problem.
+**Screen 1 – Choose a service:** The student picks the support service they need. A "Help me choose" option is there for students who don't know which service fits their problem. Linked to FR02.
 
 ![Screen 2 – Choose a time](../prototype/screen2.png)
 
-**Screen 2 – Choose a time:** The student picks a date and one of the free times shown. Linked to FR06, FR07 and FR13, and the AvailabilitySlot concept in CD01. Raises Q05 and Q06.
+**Screen 2 – Choose a time:** The student picks a date and one of the free times shown. Linked to FR06, FR07 and FR13, and to the AvailabilitySlot class in CD01. Raises Q05 and Q06.
 
 ![Screen 3 – Your details](../prototype/screen3.png)
 
-**Screen 3 – Your details:** The student's details are pre-filled from their college account, with an optional comment field. Linked to NFR01 and NFR06. Raises Q03 and relies on assumption A02.
+**Screen 3 – Your details:** The student's details are pre-filled from their college account, and there is an optional comment box. Linked to NFR01 and NFR06. Raises Q03 and relies on assumption A02.
 
-![Screen 4 – Check and confirm](../prototype/screen4.png)
+![Screen 4 – Check your request](../prototype/screen4.png)
 
-**Screen 4 – Check and confirm:** The student reviews the service, date, time and location before confirming. Linked to FR03, FR04, FR08 and FR09. Raises Q07.
+**Screen 4 – Check your request:** The student checks the service, date, time and location, then presses "Send request". Linked to FR03, FR04, FR08 and FR09. Raises Q07 and Q09.
 
-![Screen 5 – Booking confirmed](../prototype/screen5.png)
+![Screen 5 – Request sent](../prototype/screen5.png)
 
-**Screen 5 – Booking confirmed:** Confirms the appointment with the status 'booked' and mentions an email confirmation. Linked to FR11, FR14 and NFR04.
+**Screen 5 – Request sent:** Shows the status "Waiting for confirmation" and says a confirmation email will follow. It does not say "booked", because Q09 (instant booking or staff approval) is still open. Linked to FR08, FR11, FR14 and NFR04. Raises Q04 and Q09.
 
 ![Screen 6 – My appointments](../prototype/screen6.png)
 
-**Screen 6 – My appointments:** The student views their upcoming and past appointments, with a Cancel option shown to explore the cancellation policy. Linked to FR10, FR12, Q01 and Q04.
+**Screen 6 – My appointments:** The student sees their upcoming and past appointments with each one's status, and can cancel a request. Linked to FR10, FR11, FR12 and NFR06. Raises Q01 and Q04.
 
 
 ### 4.3 Walkthrough, findings and improvements
@@ -210,11 +210,12 @@ The six connected screens are shown below in the order a student would use them.
 |---|---|---|
 | Self-review against the requirements catalogue | Several steps in the journey had no matching requirement: showing availability, the booking summary, viewing own appointments, appointment status and cancelling. | Added FR06–FR14. Each screen now lists its linked requirements. Resolved. |
 | Self-review against NFR01 (privacy) | The optional comment box on Screen 3 could lead students to share sensitive information. | Added a warning under the box. Whether the box is needed at all depends on Q03. Partly resolved. |
-| Accessibility check against WCAG 2.2 (NFR04) | Labels, the main buttons and the confirmation message meet the checked criteria (3.3.2, 2.5.8, 1.4.1). However, the grey secondary text is below the 4.5:1 minimum in 1.4.3 Contrast (Minimum): about 4.48:1 on white and 3.86:1 inside the grey pre-filled fields on Screen 3. | Darken the grey text in the next version of the screens. Open. |
+| Accessibility check against WCAG 2.2 (NFR04) | Labels, the main buttons and the confirmation message meet the checked criteria (3.3.2, 2.5.8, 1.4.1). However, the grey secondary text was below the 4.5:1 minimum in 1.4.3 Contrast (Minimum): about 4.48:1 on white and 3.86:1 inside the grey pre-filled fields on Screen 3. | Redrew the screens with darker grey text (#595959). Resolved. |
+| Consistency check against Q09 and US01 | Screen 5 said "Your appointment is booked", but it isn't confirmed whether booking is instant or needs staff approval (Q09). US01 AC2 says the screen should only say "booked" once that is confirmed. | Changed Screen 5 to "Request sent", Screen 4's button to "Send request" and Screen 6's status to "Waiting for confirmation". Resolved. |
  
 I did a self-review for all 6 screens according to the requirements catalogue, NFR01 and some WCAG 2.2 criteria. No students/staff or other stakeholders were involved, so these are not stakeholder validation results.
  
-I learned that I didn't include the students' side of the booking in the original requirements, so I added FR06–FR14. I also learned that Screen 3 could gather more personal information than necessary, and thus I added a warning. One accessibility issue (grey text contrast) remains to be addressed.
+I learned that I didn't include the students' side of the booking in the original requirements, so I added FR06–FR14. I also learned that Screen 3 could gather more personal information than necessary, so I added a warning. When I redrew the screens I used darker grey text, which fixed the contrast issue, and I changed Screen 5 to "Request sent" so it matches Q09.
  
 I didn't confirm a lot of things that would need to be walked through with actual stakeholders, like: is booking instant or do we need staff approval? (FR08) What's the cancellation/no-show policy? (Q01, Q04) How long is the appointment, and where is it? (Q06, Q07) What student information do we need? (Q03)
 
