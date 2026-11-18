@@ -197,7 +197,7 @@ The six connected screens are shown below in the order a student would use them.
 
 ![Screen 5 – Request sent](../prototype/screen5.png)
 
-**Screen 5 – Request sent:** Shows the status "Waiting for confirmation" and says a confirmation email will follow. It does not say "booked", because Q09 (instant booking or staff approval) is still open. Linked to FR08, FR11, FR14 and NFR04. Raises Q04 and Q09.
+**Screen 5 – Request sent:** Shows the status "Waiting for confirmation" and says a copy of the request will be sent to their college email. It does not say "booked", because Q09 (instant booking or staff approval) is still open. Linked to FR08, FR11, FR14 and NFR04. Raises Q04 and Q09.
 
 ![Screen 6 – My appointments](../prototype/screen6.png)
 
@@ -217,7 +217,7 @@ I did a self-review for all 6 screens according to the requirements catalogue, N
  
 I learned that I didn't include the students' side of the booking in the original requirements, so I added FR06–FR14. I also learned that Screen 3 could gather more personal information than necessary, so I added a warning. When I redrew the screens I used darker grey text, which fixed the contrast issue, and I changed Screen 5 to "Request sent" so it matches Q09.
  
-I didn't confirm a lot of things that would need to be walked through with actual stakeholders, like: is booking instant or do we need staff approval? (FR08) What's the cancellation/no-show policy? (Q01, Q04) How long is the appointment, and where is it? (Q06, Q07) What student information do we need? (Q03)
+I didn't confirm a lot of things that would need to be walked through with actual stakeholders, like: is booking instant or do we need staff approval? (FR08, Q09) What's the cancellation/no-show policy? (Q01, Q04) How long is the appointment, and where is it? (Q06, Q07) What student information do we need? (Q03)
 
 
 ## 5. Quality / Non-functional Requirements
@@ -238,7 +238,7 @@ Priorities are provisional because only the scenario is available. Must means th
 
 | Req ID | Priority | Reason / trade-off |
 |---|---|---|
-| FR08 | Must | Booking online is the main problem in the scenario. Without it students are back to email and phone. It is still not known whether a request is booked straight away or needs staff approval, so FR08 is written to allow either. |
+| FR08 | Must | Booking online is the main problem in the scenario. Without it students are back to email and phone. It is still not known whether a request is booked straight away or needs staff approval, so FR08 is written to allow either (Q09). |
 | FR12 | Should | Cancelling is a problem in the scenario, but until the policy is known (Q01) students can still cancel by contacting the service. Because there is a workaround, it is Should, not Must. |
 
 ### 6.2 Lecturer change request
