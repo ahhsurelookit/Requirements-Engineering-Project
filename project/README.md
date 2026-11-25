@@ -5,7 +5,7 @@
 This folder contains the assessed project work, separate from the weekly lab exercises. The main submission is the completed Word report. The files here are the supporting evidence and match the report as of 25 November 2026.
 
 ## Contents
-- `report/project-draft-sections-1-to-7.md` — draft of Sections 1–8, matching the Word report.
+- `report/project-draft-sections-1-to-10.md` — draft of Sections 1–8, matching the Word report.
 
 - `requirements/requirements-catalogue.md` — 20 candidate requirements (FR01–FR14, NFR01–NFR06) with source, rationale, verification and status.
 
