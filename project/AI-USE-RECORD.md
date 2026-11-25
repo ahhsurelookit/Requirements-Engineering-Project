@@ -2,7 +2,7 @@
 
 ## 1. Did I use any generative AI?
 
-Yes. I used generative AI tools for parts of my Requirements Engineering project: research, brainstorming, understanding concepts, proofreading, fact-checking and reviewing my work. I used them to help me learn. The work, understanding and decisions in the project are mine.
+Yes. I used generative AI tools for parts of my Requirements Engineering project: research, brainstorming, understanding concepts, proofreading, fact-checking, reviewing my work and generating a rough skeleton for the prototype. I used them to help me learn. The work, understanding and decisions in the project are mine.
 
 ## 2. What tools did I use?
 
@@ -27,6 +27,7 @@ Yes. I used generative AI tools for parts of my Requirements Engineering project
 - Proofreading my GitHub repository for spelling mistakes, inconsistent file names and inconsistent requirement IDs.
 - Comparing my repository against the project brief and report template to find information that might be missing and areas that needed more work.
 - Understanding the assessment expectations and seeing where my work could be improved.
+- Generating a rough skeleton of the prototype screens to get a feel for the layout. I did not submit the skeleton. I then made the prototype screens myself in draw.io from my own requirements and notes.
 - I checked each suggestion before deciding whether to use it.
 
 ### Google Search and YouTube
@@ -48,7 +49,7 @@ The project is my own work, built on what I learned in lectures, practical labs 
 
 I researched the scenario, worked out the requirements, analysed the information and decided how the proposed system should work.
 
-AI tools helped me explore ideas and showed me examples of possible diagrams and approaches, but I did not copy and submit their outputs. I used the AI-assisted diagram drafts as references, then recreated the diagrams myself in draw.io and adjusted their structure and content and fixed inaccuracies.
+AI tools helped me explore ideas and showed me examples of possible diagrams and approaches, but I did not copy and submit their outputs. I used the AI-assisted diagram drafts as references, then recreated the diagrams myself in draw.io and adjusted their structure and content and fixed inaccuracies. In the same way, I used the AI-generated prototype skeleton only to get a feel for the layout, then made the prototype myself.
 
 I organised and maintained my GitHub repository myself, created and edited the project files, reviewed the requirements and decided on the final content.
 
