@@ -26,10 +26,24 @@ All these issues are directly derived from Scenario B. We need to do more resear
 - Protect students' data
 - Ensure accessibility and usability
 
+**Expected benefits:**
+- Students can find the right service and see free times without having to email or phone.
+- Staff spend less time arranging and changing appointments by hand.
+- Fewer double bookings than with the current calendars and spreadsheets (FR13).
+- Changes and cancellations are easier for students and staff to manage.
+- Only the student data that is needed is collected, and it is kept in one secure system (NFR01, NFR06).
+- Students with accessibility needs can book support themselves (NFR04).
+
+These are expected benefits based on Scenario B. They have not been measured or confirmed with stakeholders.
+
 ### 1.3 Stakeholders, needs and proposed elicitation
 
 **What are the proposed elicitation techniques:**
 I would perform interviews to assess needs for students and staff. I would also look at existing forms and calendars for appointments (if available) to understand how the process works.
+
+Interviews suit this project because the main gaps are rules that only support staff can answer, such as who can cancel an appointment (Q01), whether a request needs staff approval (Q09) and what information has to be recorded (Q03). Students can also explain in their own words where the current email and phone process is difficult, and I can ask follow-up questions when an answer is unclear.
+
+Looking at existing forms and calendars suits this project because it shows what information is actually recorded now and how staff schedule appointments, without relying only on what people remember. It also lets me check what staff say in interviews against how the process really works.
 
 **What will you be asking:**
 1. Students: what's the challenge to get a proper service or appointment.
@@ -76,7 +90,7 @@ See [`../requirements/requirements-catalogue.md`](../requirements/requirements-c
 
 ### 2.1 Requirements notes
 
-The questions below were used to analyse FR01 (Who, What, When, Why and How will we know).
+The questions below (Who, What, When, Why and How will we know) were used to analyse the first version of FR01, before it was revised in Week 10. That version let "an authorised user" view scheduled student support appointments.
 
 - Who? An authorised user; the exact role is unknown.
 - What? View scheduled student support appointments.
@@ -230,6 +244,8 @@ In Week 8 I changed NFR01. It used to say "agreed" information, but nothing had 
 | NFR ID | Why relevant? | Measurable / verifiable quality criterion |
 |---|---|---|
 | NFR01 (privacy) | A booking can show something sensitive about a student, for example that they need learning support. The less data we collect, the less there is to leak. | The booking form only asks for student number, name, college email and an optional comment. I'd check this by comparing the form's fields against that list. |
+| NFR04 (accessibility) | Some students who need support, especially learning support, may have disabilities, and they must be able to book it themselves. Accessibility is also one of the goals in Section 1.2. | Every student booking screen passes WCAG 2.2 criteria 1.4.1, 1.4.3, 2.5.8 and 3.3.2. I'd check each screen against these four criteria and record a pass or fail. In the prototype, the grey text failed 1.4.3 at first and was darkened (Section 4.3). |
+| NFR05 (usability) | If booking is slow or confusing, students may give up and go back to email or phone, which is the problem in Scenario B. | A student can request an available appointment within 3 minutes without help. I'd time test users doing the request journey and check they finish within 3 minutes without help. The 3-minute target is my own proposed value and still needs to be agreed with stakeholders. |
 | NFR06 (security) | Appointment details are private, so the system has to know who someone is before it shows or books anything. The access permissions in NFR02 also depend on knowing who is signed in. | If you're not signed in, the appointment screens don't open. I'd test this by trying to open them signed out, then again with a test college account. |
 
 
@@ -243,6 +259,7 @@ Priorities are provisional because only the scenario is available. Must means th
 |---|---|---|
 | FR08 | Must | Booking online is the main problem in the scenario. Without it students are back to email and phone. It is still not known whether a request is booked straight away or needs staff approval, so FR08 is written to allow either (Q09). |
 | FR12 | Should | Cancelling is a problem in the scenario, but until the policy is known (Q01) students can still cancel by contacting the service. Because there is a workaround, it is Should, not Must. |
+| FR14 | Could | A confirmation email gives students a record of their request, but they can already see the request on Screen 5 and in My appointments (FR10), so the system still solves the problem without it. Whether students want confirmations or reminders is not known (CR01), and the email has to be checked against NFR01 so it does not send more personal information than needed. |
 
 ### 6.2 Lecturer change request
 
@@ -296,7 +313,7 @@ Repository link: https://github.com/ahhsurelookit/Requirements-Engineering-Proje
 | 12 Nov 2026 (d7a0be0) | Section 4.3 walkthrough findings added to the report draft. | To record what the self-review of the six prototype screens found and what changed as a result. |
 | 16 Nov 2026 (b31e24c) | NFR01 refined to name the fields collected (student number, name, college email, optional comment). | "Agreed" information could not be verified because nothing had been agreed (Lab 8). |
 | 18 Nov 2026 (143d992, e7f85ab) | Prototype screens redrawn; Screen 5 changed to "Request sent" and "Waiting for confirmation"; catalogue updated to v0.5 (FR08, FR09, FR11, FR14, NFR05). | The first Screen 5 said "booked", which contradicted Q09 and US01 AC2. |
-| 25 Nov 2026 (31fe314, fc4d2f9) | FR01 and NFR03 reworded; CR01 trace corrected; every requirement marked "Candidate, to be confirmed with stakeholders"; Section 8 added. | The Lab 10 quality audit found FR01 used a vague actor and NFR03 could not be verified, and the lecturer asked for new items to be marked as candidates. |
+| 25 Nov 2026 (31fe314, fc4d2f9) | FR01 and NFR03 reworded; CR01 trace corrected; every requirement marked "Candidate, to be confirmed with stakeholders"; Section 8 added. | The Lab 10 quality audit found FR01 used a vague actor and NFR03 could not be verified. No requirement had been confirmed by real stakeholders, so each one was marked as a candidate, as the brief says not to present unconfirmed information as agreed requirements. |
 
 ## 10. AI Use Record
 
