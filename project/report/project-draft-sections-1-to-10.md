@@ -37,7 +37,7 @@ I would perform interviews to assess needs for students and staff. I would also 
 
 | Stakeholder / role | Need or concern | Evidence / source |
 |---|---|---|
-| Student | Find the right service, check availability and arrange appointments. They also need privacy. | Scenario B & Week 2 Lab |
+| Student | Find the right service, check availability, and arrange appointments. They also need privacy. | Scenario B & Week 2 Lab |
 | Student support staff | View appointments, manage availability and handle changes. | Scenario B & Week 2 Lab |
 | IT support staff | Maintaining the system and preventing technical issues or unauthorised access. | Week 1 & 2 Labs |
 | College management | Reduce manual appointment handling, oversee support services and make sure student data is handled in line with data protection rules. | Assumed stakeholder based on Scenario B; to be confirmed |
@@ -83,7 +83,7 @@ The questions below were used to analyse FR01 (Who, What, When, Why and How will
 - When? When the user opens the appointment schedule.
 - Why? To let the relevant user see scheduled appointments.
 - How will we know? Test that an authorised account can view appointments and that access follows the agreed permissions.
-- Ambiguity: 'authorised user' in FR01, FR05 and NFR02 does not say which roles are meant. UC-D01 now separates Student and Support Staff, but the exact permissions are still open (Q02). FR01 was revised in Week 10 to name Support Staff and a selected date, so it now matches UC-D01 and AD01.
+- Ambiguity: the first version of FR01 said 'authorised user', and FR05 and NFR02 talk about permissions, but none of them said which roles are meant. UC-D01 now separates Student and Support Staff, but the exact permissions are still open (Q02). FR01 was revised in Week 10 to name Support Staff and a selected date, so it now matches UC-D01 and AD01.
 - Overlap: FR05 and NFR02 both cover access control. FR05 states the function (restricting who can view appointments) and NFR02 the security quality for all appointment information. They could be merged once the access rules are confirmed.
 - NFR03 is about reviewing the prototype, which is a process requirement rather than a property of the system. Its first wording ("applicable accessibility criteria") could not be verified, so in Week 10 I reworded it to list the four WCAG 2.2 criteria it checks. NFR04 covers accessibility of the system itself.
 - Missing requirements: the first catalogue only covered staff viewing appointments. Domain modelling (CD01) and prototyping identified FR06–FR14 for availability, booking, appointment status, cancellation and confirmations. CR02 and CR03 are now recorded as FR08 and FR07. CR01 is only partly covered by FR14, which sends a confirmation, not a reminder.
@@ -127,7 +127,7 @@ AD01 shows the workflow for viewing scheduled appointments, matching UC01. The u
 
 Source file: [`CD01-class-diagram.drawio`](../diagrams/CD01-class-diagram.drawio)
 
-Figure CD01 illustrates the key concepts of the domain as found in the Student Support Appointment system, and their inter-relationships. This is not a software design (there are no methods or database tables). This is a conceptual view of the problem domain. Only those attributes that are necessary to support appointment making are identified (per NFR01). If a multiplicity depends on an unconfirmed rule, that is noted as an assumption or question (table below). Classes, attributes and multiplicities that are not in the project brief (for example AvailabilitySlot and Appointment.status) are candidates, to be confirmed with stakeholders. The note on the diagram still lists the older status values. The Appointment.status row below has the current list, which adds "waiting for confirmation" (Q09). 
+Figure CD01 illustrates the key concepts of the domain as found in the Student Support Appointment system, and their inter-relationships. It is a conceptual view of the problem domain, so it has no methods or database tables. Only those attributes that are necessary to support appointment making are identified (per NFR01). If a multiplicity depends on an unconfirmed rule, that is noted as an assumption or question (table below). Classes, attributes and multiplicities that are not in the project brief (for example AvailabilitySlot and Appointment.status) are candidates, to be confirmed with stakeholders. The note on the diagram still lists the older status values. The Appointment.status row below has the current list, which adds "waiting for confirmation" (Q09). 
 
 | Association / feature | Requirement evidence | Open question / assumption |
 |---|---|---|
@@ -171,13 +171,15 @@ The prototype was used to investigate:
 - where cancellation and appointment status fit into the journey (FR11, FR12, Q01, Q04)
 - whether the screens raise accessibility concerns (NFR04)
 
-Requirements explored: FR02, FR03, FR04, FR06–FR14, NFR01, NFR04 and NFR06. I made the screens in draw.io as low-fidelity wireframes, in the same style as my Week 7 lab wireframes, so they are not a finished interface design. The service names, dates and times are example data only. A yellow note beside each screen links it to requirement IDs and open questions. Source file: [`Project_Prototype.drawio`](../prototype/Project_Prototype.drawio). Every screen, field and label is a candidate, to be confirmed with students and support staff.
+Requirements explored: FR02, FR03, FR04, FR06–FR14, NFR01, NFR04 and NFR06. I made the screens in draw.io as low-fidelity wireframes, in the same style as my Week 7 lab wireframes, so they are not a finished interface design. The service names, dates and times are example data only. A yellow note beside each screen links it to requirement IDs and open questions. Source file: [`Project_Prototype.drawio`](../prototype/Project_Prototype.drawio). Every screen, field and label is a candidate, to be confirmed with students and support staff. "Help me choose", "Cancel request" and the status labels are my own additions.
 
 ### 4.2 Prototype screens
 
 The six connected screens are shown below in the order a student would use them. The full prototype is also in [`Prototype-Student-Booking-Journey.pdf`](../prototype/Prototype-Student-Booking-Journey.pdf).
 
 ![Prototype overview](../prototype/prototype-overview.png)
+
+*Figure P0 – Overview of the connected screens (Screens 1–6).*
 
 ![Screen 1 – Choose a service](../prototype/screen1.png)
 
@@ -210,8 +212,9 @@ The six connected screens are shown below in the order a student would use them.
 |---|---|---|
 | Self-review against the requirements catalogue | Several steps in the journey had no matching requirement: showing availability, the booking summary, viewing own appointments, appointment status and cancelling. | Added FR06–FR14. Each screen now lists its linked requirements. Resolved. |
 | Self-review against NFR01 (privacy) | The optional comment box on Screen 3 could lead students to share sensitive information. | Added a warning under the box. Whether the box is needed at all depends on Q03. Partly resolved. |
-| Accessibility check against WCAG 2.2 (NFR04) | Labels, the main buttons and the status message meet the criteria I checked (3.3.2, 2.5.8, 1.4.1). The light grey secondary text (#969696) was about 3:1 on white, which is below the 4.5:1 minimum in 1.4.3 Contrast (Minimum). | Darkened the grey text to #595959 (about 7:1) on all six screens. Resolved. |
+| Accessibility check against WCAG 2.2 (NFR04) | Labels, the main buttons and the status message meet the criteria I checked (3.3.2, 2.5.8, 1.4.1). The light grey secondary text (#969696) was about 3:1 on white, which is below the 4.5:1 minimum in 1.4.3 Contrast (Minimum). | Darkened the grey text to #595959 (about 7:1). Resolved. |
 | Consistency check against Q09 and US01 | Screen 5 said "Your appointment is booked", but it isn't confirmed whether booking is instant or needs staff approval (Q09). US01 AC2 says the screen should only say "booked" once that is confirmed. | Changed Screen 5 to "Request sent", Screen 4's button to "Send request", Screen 6's status to "Waiting for confirmation" and the overview label to "Request Sent!". Resolved. |
+| Self-review of the screen layout | Screen 3 had two "Next" buttons, so a student might not know which one to press. | Removed one of them. Resolved. |
 
 I did a self-review of all 6 screens against the requirements catalogue, NFR01 and some WCAG 2.2 criteria. No students, staff or other stakeholders were involved, so these are not stakeholder validation results.
 
@@ -243,11 +246,13 @@ Priorities are provisional because only the scenario is available. Must means th
 
 ### 6.2 Lecturer change request
 
-Not yet received.
+| Change request and date | Affected requirement IDs | What changed and why |
+|---|---|---|
+| No change request received from the lecturer as of 25 November 2026. | None | No requirements, models or screens have been changed for a lecturer change request, because none has been issued yet. |
 
 ## 7. Agile Requirements
 
-| Story ID / source | User story | Acceptance criteria |
+| Story ID / source requirement | User story | Acceptance criteria |
 |---|---|---|
 | US01 / FR08 | As a student, I want to request an appointment with a support service at an available time, so that I don't have to email or phone. | AC1: Given I have chosen a service and a free time, when I confirm, then a request is recorded with my student number, the service, the date and the time.<br>AC2: After I confirm, the screen says my request has been sent. It only says "booked" if the college confirms that booking is instant (Q09). |
 | US02 / FR10 | As a student, I want to see my upcoming and past appointments, so that I know when and where to go. | AC1: Given I am signed in, when I open My appointments, then my appointments are listed with service, date, time and status.<br>AC2: No other student's appointments appear in my list. |
@@ -267,23 +272,32 @@ Not yet received.
 
 ### 8.2 Final verification, validation and reflection
 
-| Finding | Revision / follow-up | Status |
+| Finding | Revision / Follow up | Status |
 |---|---|---|
 | FR01 used a vague actor ("authorised user") and did not match UC-D01 or AD01. | Reworded to name support staff and a selected date (Lab 10). | Resolved |
 | NFR03 said "applicable accessibility criteria", so it could not be verified. | Reworded to list WCAG 2.2 criteria 1.4.1, 1.4.3, 2.5.8 and 3.3.2 (Lab 10). | Resolved |
 | CR01 (reminders) was recorded as covered by FR14, but FR14 is only a confirmation. | Section 1.5 corrected: partly covered. Reminders stay a candidate. | Resolved (trace); reminders open |
 | Screen 5 said "booked" although Q09 is unanswered. | Changed to "Request sent" and "Waiting for confirmation" (Section 4.3). | Resolved |
-| Grey secondary text (#969696) was below the 4.5:1 contrast minimum (NFR04). | Darkened to #595959 on all six screens (Section 4.3). | Resolved |
+| Grey secondary text (#969696) was below the 4.5:1 contrast minimum (NFR04). | Darkened to #595959 (Section 4.3). | Resolved |
 | FR08, FR11 and FR12 depend on rules nobody has supplied (Q09, Q04, Q01). | Kept as candidates and written so they can be checked once the rules are agreed. | Open |
 | FR02 and NFR02 depend on "agreed" information (service list, roles). | Confirm the service list and roles with support staff (Q02). | Open |
 | No requirement has been validated with real stakeholders. | Every requirement is marked "Candidate, to be confirmed with stakeholders". | Open |
 
 The most important improvements were adding the student side of the booking (FR06–FR14) once modelling and prototyping showed it was missing, rewording requirements that could not be checked (NFR01 in Week 8, FR01 and NFR03 in Week 10), and changing the prototype so it no longer says an appointment is booked while that rule is unknown (Q09). I checked all of this myself against my models, labs and the brief, so it is self-review, not stakeholder validation. Before any requirement could be treated as agreed, support staff would need to answer Q01, Q02, Q04 and Q09, and students would need to try the prototype in a walkthrough. Until then, every requirement stays marked as a candidate.
 
+## 9. GitHub: evidence of evolving requirements work
 
-### Section 9: genuine commit examples (in the Word report).
-### Section 10: AI Use Record (see project/AI-USE-RECORD.md).
+Repository link: https://github.com/ahhsurelookit/Requirements-Engineering-Project/tree/main/project
 
+| Date/revision | What changed? | Why was it changed? |
+|---|---|---|
+| 12 Nov 2026 (e0ae6f9) | Requirements catalogue expanded from 8 to 20 requirements (FR06–FR14, NFR04–NFR06), each with source, rationale and verification. | Modelling and prototyping showed the first catalogue only covered staff viewing appointments, not the student booking side. |
+| 12 Nov 2026 (d9fe5aa) | UC-D01 redrawn with Student and Support Staff actors and seven use cases; AD01 tidied; CD01 class diagram added. | The 3.5 consistency check found UC-D01 used one generic 'authorised user' actor, which did not match CD01 or the scenario. |
+| 12 Nov 2026 (d7a0be0) | Section 4.3 walkthrough findings added to the report draft. | To record what the self-review of the six prototype screens found and what changed as a result. |
+| 16 Nov 2026 (b31e24c) | NFR01 refined to name the fields collected (student number, name, college email, optional comment). | "Agreed" information could not be verified because nothing had been agreed (Lab 8). |
+| 18 Nov 2026 (143d992, e7f85ab) | Prototype screens redrawn; Screen 5 changed to "Request sent" and "Waiting for confirmation"; catalogue updated to v0.5 (FR08, FR09, FR11, FR14, NFR05). | The first Screen 5 said "booked", which contradicted Q09 and US01 AC2. |
+| 25 Nov 2026 (31fe314, fc4d2f9) | FR01 and NFR03 reworded; CR01 trace corrected; every requirement marked "Candidate, to be confirmed with stakeholders"; Section 8 added. | The Lab 10 quality audit found FR01 used a vague actor and NFR03 could not be verified, and the lecturer asked for new items to be marked as candidates. |
 
-- Section 6.2: the lecturer's actual change request (do not invent one).
+## 10. AI Use Record
 
+See [`../AI-USE-RECORD.md`](../AI-USE-RECORD.md). It is the same as Section 10 of the Word report.
