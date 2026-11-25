@@ -280,9 +280,10 @@ Not yet received.
 
 The most important improvements were adding the student side of the booking (FR06–FR14) once modelling and prototyping showed it was missing, rewording requirements that could not be checked (NFR01 in Week 8, FR01 and NFR03 in Week 10), and changing the prototype so it no longer says an appointment is booked while that rule is unknown (Q09). I checked all of this myself against my models, labs and the brief, so it is self-review, not stakeholder validation. Before any requirement could be treated as agreed, support staff would need to answer Q01, Q02, Q04 and Q09, and students would need to try the prototype in a walkthrough. Until then, every requirement stays marked as a candidate.
 
-## Next sections to complete
+
+### Section 9: genuine commit examples (in the Word report).
+### Section 10: AI Use Record (see project/AI-USE-RECORD.md).
 
 
 - Section 6.2: the lecturer's actual change request (do not invent one).
-- Section 9: genuine commit examples (in the Word report).
-- Section 10: AI Use Record (see project/AI-USE-RECORD.md).
+
