@@ -16,7 +16,7 @@ All these issues are directly derived from Scenario B. We need to do more resear
 
 ### 1.2 Problem statement and goals
 
-**Problem:** Right now we have a mix of different informal processes for making appointments. That makes it difficult for students to find the right help, and difficult for us to track appointments.
+**Problem:** Right now we have a mix of different informal processes for making appointments. That makes it difficult for students to find the right help, and difficult for staff to track appointments.
 
 **Goals:**
 - Assist students in finding appropriate support services
@@ -58,7 +58,7 @@ Looking at existing forms and calendars suits this project because it shows what
 
 ### 1.4 Scope and system boundary
 
-**In:** Show support services. Can check availability of appointments. Log appointments. View schedules. Maybe make changes or cancellations. Students request appointments online and view their own appointments. Support staff record the times they are available.
+**In:** Show support services. Can check availability of appointments. Log appointments. View schedules. Cancel appointments in line with the agreed policy (FR12, Q01); whether appointments can also be changed is to be confirmed. Students request appointments online and view their own appointments. Support staff record the times they are available.
 
 **Out:** Actually provide support services. Build separate mobile app. Integration with other systems at the college.
 
@@ -82,7 +82,7 @@ Looking at existing forms and calendars suits this project because it shows what
 | Q07 | Open question | Are appointments in person, online, or either? | Raised during prototyping (Screen 4) | Confirm with support staff |
 | A03 | Assumption | The booking form needs only student number, name, college email and an optional comment. | Not confirmed; basis of the refined NFR01 | Confirm with support staff (Q03) |
 | Q08 | Open question | Do support staff sign in with the same college account system as students, or a separate staff login? | Raised in Lab 8 (NFR06) | Confirm with IT support staff |
-| Q09 | Open question | Is a student's appointment request confirmed straight away, or does a member of support staff approve it first? | Raised in Lab 9 (FR08, US01). Not approved. | Confirm with support staff and college management |
+| Q09 | Open question | Is a student's appointment request confirmed straight away, or does a member of support staff approve it first? | Raised in Lab 9 (FR08, US01). Not confirmed. | Confirm with support staff and college management |
 
 ## 2. Requirements Catalogue
 
@@ -296,6 +296,7 @@ Priorities are provisional because only the scenario is available. Must means th
 | CR01 (reminders) was recorded as covered by FR14, but FR14 is only a confirmation. | Section 1.5 corrected: partly covered. Reminders stay a candidate. | Resolved (trace); reminders open |
 | Screen 5 said "booked" although Q09 is unanswered. | Changed to "Request sent" and "Waiting for confirmation" (Section 4.3). | Resolved |
 | Grey secondary text (#969696) was below the 4.5:1 contrast minimum (NFR04). | Darkened to #595959 (Section 4.3). | Resolved |
+| NFR04's statement said "applicable WCAG 2.2 Level AA success criteria", but its verification checked four named criteria, so the two did not match. | Statement reworded to name the four criteria (1.4.1, 1.4.3, 2.5.8 and 3.3.2), so it matches the verification. | Resolved |
 | FR08, FR11 and FR12 depend on rules nobody has supplied (Q09, Q04, Q01). | Kept as candidates and written so they can be checked once the rules are agreed. | Open |
 | FR02 and NFR02 depend on "agreed" information (service list, roles). | Confirm the service list and roles with support staff (Q02). | Open |
 | No requirement has been validated with real stakeholders. | Every requirement is marked "Candidate, to be confirmed with stakeholders". | Open |
