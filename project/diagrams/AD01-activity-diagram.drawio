@@ -1,86 +1,130 @@
 <mxfile host="app.diagrams.net">
-  <diagram name="Page-1" id="9VEsvgPoLyERFMOkZyuw">
-    <mxGraphModel dx="2009" dy="1462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
+  <diagram name="Page-1" id="wbYWBvma9mLnHk2lB1nT">
+    <mxGraphModel dx="3174" dy="2494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="fkRLUFYcRyCfU8WvUe-6-10" edge="1" parent="1" source="fkRLUFYcRyCfU8WvUe-6-1" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;endSize=8;fontColor=default;" target="fkRLUFYcRyCfU8WvUe-6-2">
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-19" edge="1" parent="1" source="cRvVXlDdk_uq59oLcaAQ-2" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;endSize=8;endArrow=none;endFill=0;fontColor=default;" target="cRvVXlDdk_uq59oLcaAQ-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fkRLUFYcRyCfU8WvUe-6-1" parent="1" style="ellipse;html=1;fillColor=#000000;strokeColor=#000000;rounded=0;" value="" vertex="1">
-          <mxGeometry height="60" width="60" x="390" y="80" as="geometry" />
-        </mxCell>
-        <mxCell id="fkRLUFYcRyCfU8WvUe-6-11" edge="1" parent="1" source="fkRLUFYcRyCfU8WvUe-6-2" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;endSize=8;fontColor=default;" target="fkRLUFYcRyCfU8WvUe-6-3" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fkRLUFYcRyCfU8WvUe-6-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;roundedPerimeter=1;" value="Open appointment schedule" vertex="1">
-          <mxGeometry height="60" width="120" x="360" y="200" as="geometry" />
-        </mxCell>
-        <mxCell id="fkRLUFYcRyCfU8WvUe-6-12" edge="1" parent="1" source="fkRLUFYcRyCfU8WvUe-6-3" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;endSize=8;fontColor=default;" target="fkRLUFYcRyCfU8WvUe-6-4" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fkRLUFYcRyCfU8WvUe-6-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;roundedPerimeter=1;" value="Select a date" vertex="1">
-          <mxGeometry height="60" width="120" x="360" y="340" as="geometry" />
-        </mxCell>
-        <mxCell id="fkRLUFYcRyCfU8WvUe-6-13" edge="1" parent="1" source="fkRLUFYcRyCfU8WvUe-6-4" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;endSize=8;fontColor=default;" target="fkRLUFYcRyCfU8WvUe-6-5" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fkRLUFYcRyCfU8WvUe-6-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;roundedPerimeter=1;" value="Check user&#39;s permission" vertex="1">
-          <mxGeometry height="60" width="120" x="360" y="470" as="geometry" />
-        </mxCell>
-        <mxCell id="fkRLUFYcRyCfU8WvUe-6-43" edge="1" parent="1" source="fkRLUFYcRyCfU8WvUe-6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;" target="fkRLUFYcRyCfU8WvUe-6-6">
-          <mxGeometry relative="1" x="-0.4231" as="geometry">
-            <mxPoint x="639.9999999999998" y="660" as="targetPoint" />
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-20" edge="1" parent="1" source="cRvVXlDdk_uq59oLcaAQ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;endArrow=none;endFill=0;" target="cRvVXlDdk_uq59oLcaAQ-15">
+          <mxGeometry relative="1" x="-0.4272" as="geometry">
+            <mxPoint x="1230" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fkRLUFYcRyCfU8WvUe-6-46" connectable="0" parent="fkRLUFYcRyCfU8WvUe-6-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;rounded=0;" value="[Yes]" vertex="1">
-          <mxGeometry relative="1" x="0.1214" y="-2" as="geometry">
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-54" connectable="0" parent="cRvVXlDdk_uq59oLcaAQ-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="1..*" vertex="1">
+          <mxGeometry relative="1" x="-0.9558" y="11" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fkRLUFYcRyCfU8WvUe-6-44" edge="1" parent="1" source="fkRLUFYcRyCfU8WvUe-6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;" target="fkRLUFYcRyCfU8WvUe-6-7">
-          <mxGeometry relative="1" x="-0.3793" as="geometry">
-            <mxPoint x="170" y="660" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="SupportService" vertex="1">
+          <mxGeometry height="140" width="315" x="305" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="fkRLUFYcRyCfU8WvUe-6-45" connectable="0" parent="fkRLUFYcRyCfU8WvUe-6-44" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;rounded=0;" value="[No]" vertex="1">
-          <mxGeometry relative="1" x="0.204" y="3" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-26" parent="cRvVXlDdk_uq59oLcaAQ-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;labelBackgroundColor=none;" value="serviceName: String&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;description: String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="15" y="55" as="geometry" />
         </mxCell>
-        <mxCell id="fkRLUFYcRyCfU8WvUe-6-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;labelBackgroundColor=none;rounded=0;" value="Permission g&lt;span style=&quot;text-decoration-line: inherit; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;ranted?&lt;/span&gt;" vertex="1">
-          <mxGeometry height="80" width="140" x="350" y="620" as="geometry" />
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-17" edge="1" parent="1" source="cRvVXlDdk_uq59oLcaAQ-12" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;endSize=8;endArrow=none;endFill=0;fontColor=default;" target="cRvVXlDdk_uq59oLcaAQ-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fkRLUFYcRyCfU8WvUe-6-17" edge="1" parent="1" source="fkRLUFYcRyCfU8WvUe-6-6" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;endSize=8;fontColor=default;">
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-18" edge="1" parent="1" source="cRvVXlDdk_uq59oLcaAQ-12" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;endSize=8;endArrow=none;endFill=0;fontColor=default;" target="cRvVXlDdk_uq59oLcaAQ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-12" parent="1" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="AvailabilitySlot" vertex="1">
+          <mxGeometry height="140" width="315" x="810" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-23" parent="cRvVXlDdk_uq59oLcaAQ-12" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;labelBackgroundColor=none;" value="date: Date&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;startTime: Time&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;endTime: Time&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="17" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-13" parent="1" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Appointment" vertex="1">
+          <mxGeometry height="140" width="315" x="305" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-25" parent="cRvVXlDdk_uq59oLcaAQ-13" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;labelBackgroundColor=none;" value="date: Date&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;startTime: Time&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;status: AppointmentStatus&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="255" x="-19" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-16" edge="1" parent="1" source="cRvVXlDdk_uq59oLcaAQ-14" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;endSize=8;endArrow=none;endFill=0;fontColor=default;" target="cRvVXlDdk_uq59oLcaAQ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-14" parent="1" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Student" vertex="1">
+          <mxGeometry height="140" width="315" x="-180" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-27" parent="cRvVXlDdk_uq59oLcaAQ-14" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;labelBackgroundColor=none;" value="studentNumber: String&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;name: String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;collegeEmail: String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="230" x="-20" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-15" parent="1" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="SupportStaff" vertex="1">
+          <mxGeometry height="140" width="315" x="810" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;labelBackgroundColor=none;" value="name: String&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;staffRole: String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="820" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-28" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=none;" value="Conceptual model only (no methods or database tables). AppointmentStatus values (e.g. booked, cancelled, attended, missed) to be confirmed (Q04)." vertex="1">
+          <mxGeometry height="100" width="760" x="-150" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;labelBackgroundColor=none;" value="attend&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;s&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="180" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-30" edge="1" parent="1" source="cRvVXlDdk_uq59oLcaAQ-29" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;endSize=8;fontColor=default;" target="cRvVXlDdk_uq59oLcaAQ-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-32" edge="1" parent="1" source="cRvVXlDdk_uq59oLcaAQ-31" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;endSize=8;fontColor=default;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="950" as="targetPoint" />
+            <mxPoint x="579.6551724137935" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fkRLUFYcRyCfU8WvUe-6-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;roundedPerimeter=1;" value="Display scheduled appointments for the selected date" vertex="1">
-          <mxGeometry height="60" width="120" x="570" y="780" as="geometry" />
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;labelBackgroundColor=none;" value="is provided in" vertex="1">
+          <mxGeometry height="30" width="110" x="470" y="610" as="geometry" />
         </mxCell>
-        <mxCell id="fkRLUFYcRyCfU8WvUe-6-16" edge="1" parent="1" source="fkRLUFYcRyCfU8WvUe-6-7" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;endSize=8;fontColor=default;">
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;labelBackgroundColor=none;" value="is booked as" vertex="1">
+          <mxGeometry height="30" width="100" x="640" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-36" edge="1" parent="1" source="cRvVXlDdk_uq59oLcaAQ-33" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.888;entryY=-0.021;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;endSize=8;fontColor=default;" target="cRvVXlDdk_uq59oLcaAQ-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;labelBackgroundColor=none;" value="is offered by" vertex="1">
+          <mxGeometry height="30" width="90" x="970" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-38" edge="1" parent="1" source="cRvVXlDdk_uq59oLcaAQ-37" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;endSize=8;fontColor=default;" target="cRvVXlDdk_uq59oLcaAQ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;labelBackgroundColor=none;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="900" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;labelBackgroundColor=none;" value="0..*" vertex="1">
+          <mxGeometry height="30" width="60" x="900" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;labelBackgroundColor=none;" value="0..*" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;labelBackgroundColor=none;" value="0..*" vertex="1">
+          <mxGeometry height="30" width="60" x="410" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;labelBackgroundColor=none;" value="0..1" vertex="1">
+          <mxGeometry height="30" width="60" x="640" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;labelBackgroundColor=none;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="750" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;labelBackgroundColor=none;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="130" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;labelBackgroundColor=none;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="400" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-48" edge="1" parent="1" source="cRvVXlDdk_uq59oLcaAQ-13" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.624;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;endSize=8;endArrow=none;endFill=0;dashed=1;fontColor=default;" target="cRvVXlDdk_uq59oLcaAQ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-56" edge="1" parent="1" source="cRvVXlDdk_uq59oLcaAQ-49" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;defaultLabelBackgroundColor=page;labelPadding=0 4;startSize=8;endSize=8;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="945" as="targetPoint" />
+            <mxPoint x="910" y="475" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fkRLUFYcRyCfU8WvUe-6-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;roundedPerimeter=1;" value="Do not display appointment details (exact response to confirm)" vertex="1">
-          <mxGeometry height="60" width="120" x="120" y="780" as="geometry" />
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;labelBackgroundColor=none;" value="is delivered by" vertex="1">
+          <mxGeometry height="30" width="130" x="750" y="460" as="geometry" />
         </mxCell>
-        <mxCell id="fkRLUFYcRyCfU8WvUe-6-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;labelBackgroundColor=none;" value="AD01 Activity Diagram: View Scheduled Student Support Appointments" vertex="1">
-          <mxGeometry height="30" width="360" x="230" y="10" as="geometry" />
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-52" parent="1" style="text;whiteSpace=wrap;labelBackgroundColor=none;fontSize=17;" value="CD01 Conceptual Class Diagram: Student Support Appointment System" vertex="1">
+          <mxGeometry height="40" width="490" x="230" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="fkRLUFYcRyCfU8WvUe-6-36" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=none;rounded=0;" value="" vertex="1">
-          <mxGeometry height="100" width="525" x="155" y="1059" as="geometry" />
-        </mxCell>
-        <mxCell id="fkRLUFYcRyCfU8WvUe-6-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;labelBackgroundColor=none;" value="Confirm which roles may view appointments (Q02) and what message appears when access is denied." vertex="1">
-          <mxGeometry height="30" width="495" x="160" y="1094" as="geometry" />
-        </mxCell>
-        <mxCell id="fkRLUFYcRyCfU8WvUe-6-47" parent="1" style="ellipse;html=1;shape=endState;labelBackgroundColor=none;rounded=0;fontColor=light-dark(#000000,#000000);fillColor=light-dark(#000000,#000000);" value="" vertex="1">
-          <mxGeometry height="60" width="60" x="600" y="945" as="geometry" />
-        </mxCell>
-        <mxCell id="fkRLUFYcRyCfU8WvUe-6-48" parent="1" style="ellipse;html=1;shape=endState;labelBackgroundColor=none;rounded=0;fontColor=light-dark(#000000,#000000);fillColor=light-dark(#000000,#000000);" value="" vertex="1">
-          <mxGeometry height="60" width="60" x="150" y="940" as="geometry" />
+        <mxCell id="cRvVXlDdk_uq59oLcaAQ-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="1..*" vertex="1">
+          <mxGeometry height="30" width="60" x="1140" y="990" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
