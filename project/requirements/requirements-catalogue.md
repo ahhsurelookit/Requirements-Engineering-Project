@@ -1,6 +1,6 @@
 # Requirements Catalogue — Scenario B
 
-Version: v0.7 (27 November 2026). Requirements taken from Scenario B are marked "Based on Scenario B"; new ones are marked "Candidate". None have been confirmed by real stakeholders.
+Version: (27 November 2026). Requirements taken from Scenario B are marked "Based on Scenario B"; new ones are marked "Candidate". None have been confirmed by real stakeholders.
 
 | ID | Type | Requirement statement | Priority | Source | Rationale | Verification | Status |
 |---|---|---|---|---|---|---|---|
@@ -32,4 +32,4 @@ Version: v0.7 (27 November 2026). Requirements taken from Scenario B are marked 
 - 18 November 2026: FR08, FR09, FR11, FR14 and NFR05 reworded from "booked" and "confirmed" to "request" and "sent", to match the redrawn prototype and Q09.
 - 25 November 2026 (Lab 10 quality audit): FR01 reworded to name support staff and the selected date, so it matches UC-D01 and AD01. NFR03 reworded to list the WCAG 2.2 criteria it checks, so it can be verified.
 - CR01 (reminders) is only partly covered by FR14, which sends a confirmation when a request is sent. Reminders before the appointment are not covered and stay a candidate.
-- v0.7: NFR01, NFR03, NFR04 and NFR05 reworded to start with "The system shall". The Status column now separates requirements based on Scenario B from new candidate requirements.
+- (27 November 2026) NFR01, NFR03, NFR04 and NFR05 reworded to start with "The system shall". The Status column now separates requirements based on Scenario B from new candidate requirements.
