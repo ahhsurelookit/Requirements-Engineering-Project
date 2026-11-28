@@ -6,13 +6,11 @@
 
 ### 1.1 Background and current situation
 
-The college has student support services such as academic support, careers advice and learning support.
+The college has support services for students, e.g. academic support, careers advice and learning support. Now, students are interacting with the services via email or by phone. The staff are currently managing their appointments using calendars and spreadsheets.
 
-Currently students are contacting the services by email or phone calls. For staff, they are scheduling appointments with calendars, spreadsheets or other informal ways.
+Because of this, students find it hard to know what services are out there and what appointments they can book. The staff may be busy managing appointments manually, and it may be hard for them to change or cancel appointments. We also must ensure that student information is secure, and that the system is as easy as possible (user friendly) to use.
 
-This means it can be challenging for students to locate the service they require or check for the appointment availability. Also, staff may spend time manually managing the appointments. It can be challenging to make changes or cancellations. It's important to ensure the student's information is secure and that the system is accessible and user friendly.
-
-All these issues are directly derived from Scenario B. We need to do more research to figure out the exact procedures for the college.
+All of these issues point back to Scenario B. We need to do more research to understand exactly what the procedures are at the college.
 
 ### 1.2 Problem statement and goals
 
@@ -39,15 +37,15 @@ These are expected benefits based on Scenario B. They have not been measured or 
 ### 1.3 Stakeholders, needs and proposed elicitation
 
 **What are the proposed elicitation techniques:**
-I would perform interviews to assess needs for students and staff. I would also look at existing forms and calendars for appointments (if available) to understand how the process works.
+I'll be interviewing students and staff about their needs. I will also be looking at the existing forms/calendars of appointments (if they exist) to get an idea of the current process.
 
-Interviews suit this project because the main gaps are rules that only support staff can answer, such as who can cancel an appointment (Q01), whether a request needs staff approval (Q09) and what information has to be recorded (Q03). Students can also explain in their own words where the current email and phone process is difficult, and I can ask follow-up questions when an answer is unclear.
+Interviews make sense for this project because the major areas of missing rules are rules that only staff can answer (e.g. who can cancel an appointment (Q01), whether a request needs staff approval (Q09) and what should be documented (Q03)). Students could also share any frustrations they have with the current email and phone process in their own words. I can also follow up on any unclear answers.
 
-Looking at existing forms and calendars suits this project because it shows what information is actually recorded now and how staff schedule appointments, without relying only on what people remember. It also lets me check what staff say in interviews against how the process really works.
+Looking at existing forms/calendars makes sense for this project as it is a way to see the actual information being documented and how staff schedule appointments. It's not just depending on people's memory. It also allows me to check staff answers from the interviews against the actual process.
 
 **What will you be asking:**
-1. Students: what's the challenge to get a proper service or appointment.
-2. Staff: who can make/alter/cancel appointments, what information is required.
+1. Students: what makes it hard to get the right service or an appointment?
+2. Staff: who can make, change or cancel appointments, and what information is required?
 
 | Stakeholder / role | Need or concern | Evidence / source |
 |---|---|---|
@@ -58,9 +56,9 @@ Looking at existing forms and calendars suits this project because it shows what
 
 ### 1.4 Scope and system boundary
 
-**In:** Show support services. Can check availability of appointments. Log appointments. View schedules. Cancel appointments in line with the agreed policy (FR12, Q01); whether appointments can also be changed is to be confirmed. Students request appointments online and view their own appointments. Support staff record the times they are available.
+**In:** Show support services. Check availability of appointments. Log appointments. View schedules. Cancel appointments in line with the agreed policy (FR12, Q01); whether appointments can also be changed is to be confirmed. Students request appointments online and view their own appointments. Support staff record the times they are available.
 
-**Out:** Actually provide support services. Build separate mobile app. Integration with other systems at the college.
+**Out:** Providing the support services themselves. A separate mobile app. Integration with other college systems.
 
 **Constraints:** Need to make sure student info is secure. Need to take accessibility and differing availabilities of staff into account.
 
@@ -83,10 +81,15 @@ Looking at existing forms and calendars suits this project because it shows what
 | A03 | Assumption | The booking form needs only student number, name, college email and an optional comment. | Not confirmed; basis of the refined NFR01 | Confirm with support staff (Q03) |
 | Q08 | Open question | Do support staff sign in with the same college account system as students, or a separate staff login? | Raised in Lab 8 (NFR06) | Confirm with IT support staff |
 | Q09 | Open question | Is a student's appointment request confirmed straight away, or does a member of support staff approve it first? | Raised in Lab 9 (FR08, US01). Not confirmed. | Confirm with support staff and college management |
+| Q10 | Open question | Should students get reminders before an appointment, and how far in advance? | Raised in final review (CR01, FR14). Not confirmed. | Ask students and support staff |
+| Q11 | Open question | How long should appointment records be kept, and who can see past appointments? | Raised in final review (NFR01, NFR02, FR10). Not confirmed. | Confirm with support staff and college management |
+| Q12 | Open question | What happens if a student misses an appointment: is there a limit or a follow-up? | Raised in final review (FR11, Q04). Not confirmed. | Confirm with support staff |
+| Q13 | Open question | Do some services need longer appointments or group appointments? | Raised in final review (A01, Q06, CD01). Not confirmed. | Confirm with support staff |
+| Q14 | Open question | Do support staff need to be told when a new request comes in, and how? | Raised in final review (FR08, Q09). Not confirmed. | Confirm with support staff |
 
 ## 2. Requirements Catalogue
 
-See [`../requirements/requirements-catalogue.md`](../requirements/requirements-catalogue.md) (20 requirements: FR01–FR14 and NFR01–NFR06). Every requirement is marked "Candidate, to be confirmed with stakeholders", because none have been confirmed by real stakeholders.
+See [`../requirements/requirements-catalogue.md`](../requirements/requirements-catalogue.md) (20 requirements: FR01–FR14 and NFR01–NFR06). Requirements taken from Scenario B are marked "Based on Scenario B", and new ones are marked "Candidate". None have been confirmed by real stakeholders.
 
 ### 2.1 Requirements notes
 
@@ -97,13 +100,13 @@ The questions below (Who, What, When, Why and How will we know) were used to ana
 - When? When the user opens the appointment schedule.
 - Why? To let the relevant user see scheduled appointments.
 - How will we know? Test that an authorised account can view appointments and that access follows the agreed permissions.
-- Ambiguity: the first version of FR01 said 'authorised user', and FR05 and NFR02 talk about permissions, but none of them said which roles are meant. UC-D01 now separates Student and Support Staff, but the exact permissions are still open (Q02). FR01 was revised in Week 10 to name Support Staff and a selected date, so it now matches UC-D01 and AD01.
-- Overlap: FR05 and NFR02 both cover access control. FR05 states the function (restricting who can view appointments) and NFR02 the security quality for all appointment information. They could be merged once the access rules are confirmed.
-- NFR03 is about reviewing the prototype, which is a process requirement rather than a property of the system. Its first wording ("applicable accessibility criteria") could not be verified, so in Week 10 I reworded it to list the four WCAG 2.2 criteria it checks. NFR04 covers accessibility of the system itself.
-- Missing requirements: the first catalogue only covered staff viewing appointments. Domain modelling (CD01) and prototyping identified FR06–FR14 for availability, booking, appointment status, cancellation and confirmations. CR02 and CR03 are now recorded as FR08 and FR07. CR01 is only partly covered by FR14, which sends a confirmation, not a reminder.
-- Unconfirmed rules: FR08 (instant booking or staff approval, Q09), FR11 (status values, Q04 and Q09) and FR12 (cancellation policy, Q01) depend on rules that have not been supplied. They are written so they can be verified once the rule is agreed, and remain candidate requirements.
-- Verifiability: words such as 'agreed' in FR02 and NFR02 mean verification depends on information that is not yet confirmed. NFR01 had the same problem and was refined in Week 8 to name the fields collected. The 3-minute target in NFR05 is a proposed value that needs to be agreed with stakeholders.
-- Possible conflict: FR14 (email confirmation) must not send more personal information than necessary, so it has to be checked against NFR01.
+- Ambiguity: FR01 v1 said "authorised user". FR05 and NFR02 talk about permissions, but none of the requirements said which roles. There is a Student and Support Staff split in UC-D01, but it is unclear what the permissions are (Q02). FR01 was updated in Week 10 with the role (Support Staff) and a specific date to align with UC-D01 and AD01.
+- Overlap: FR05 and NFR02 both deal with access control. FR05 is the function, limiting who sees appointments. NFR02 is the security quality for all appointment data. They could maybe be combined once we have clear access rules.
+- NFR03: deals with the prototype review. It is a process requirement, not a property of the system. The initial version ("applicable accessibility criteria") couldn't be verified, so in Week 10 I changed it to list the 4 WCAG 2.2 criteria that are checked. NFR04 is the accessibility of the system itself.
+- Missing requirements: initially, only staff seeing appointments was covered. Following the domain modelling (CD01) and prototyping, we have FR06–FR14. These cover availability, booking, appointment status, cancellation and confirmations. CR02 and CR03 have now been added as FR08 and FR07. FR14 partially addresses CR01, as it's a confirmation, not a reminder.
+- Rules not confirmed: FR08 (instant booking or approval by staff? Q09), FR11 (what are the status values? Q04, Q09) and FR12 (what's the cancellation policy? Q01). We haven't been supplied with these rules. The requirements are written so that once a rule is established, we can verify it. These are all candidate requirements.
+- Can't verify: FR02 and NFR02 use words such as "agreed", so to verify them we need information that is not yet confirmed. NFR01 had the same problem, so I refined it in Week 8 to state which fields are collected. The 3 minutes in NFR05 is a proposed value, which we need to agree with the stakeholders.
+- Potential conflict: FR14 (email confirmation) cannot send more personal information than required, so it must be checked against NFR01.
 
 ## 3. Requirements Modelling
 
@@ -113,7 +116,7 @@ The questions below (Who, What, When, Why and How will we know) were used to ana
 
 Source file: [`UC-D01-use-case-diagram.drawio`](../diagrams/UC-D01-use-case-diagram.drawio)
 
-UC-D01 shows the two main actors, Student and Support Staff, and the main use cases inside the system boundary. Each use case is labelled with the requirement it relates to. Students view services, check available times, request appointments, view their own appointments and cancel appointments (FR02, FR06, FR08, FR10, FR12). Support staff view the schedule, record their availability and may cancel appointments (FR01, FR07, FR12). The model is provisional because the exact roles and permissions (Q02) and who may cancel (Q01) are not confirmed. A proposed use case, "Approve or reject request", is shown with a dashed outline for Support Staff. It is only needed if booking is not instant (Q09). Use cases that are not in the project brief are candidates, to be confirmed with stakeholders.
+UC-D01 illustrates the two primary actors, Student and Support Staff, and the primary use cases within the system boundary. Each use case is mapped to a requirement. Students: see services, see available times, make an appointment request, see their appointments and cancel appointments (FR02, FR06, FR08, FR10, FR12). Support staff: see the schedule, set availability and may cancel appointments (FR01, FR07, FR12). This is a preliminary model, as the roles/permissions (Q02) and who is able to cancel (Q01) are still unclear. The use case "Approve or reject request" (dashed outline) for Support Staff is proposed and only relevant if booking is not instant (Q09). Use cases outside the project brief are potential candidates, to be confirmed with stakeholders.
 
 ### 3.2 One Use Case Narrative
 
@@ -133,7 +136,7 @@ UC-D01 shows the two main actors, Student and Support Staff, and the main use ca
 
 Source file: [`AD01-activity-diagram.drawio`](../diagrams/AD01-activity-diagram.drawio)
 
-AD01 shows the workflow for viewing scheduled appointments, matching UC01. The user opens the schedule, selects a date and the system checks their permission. The guards [Yes] and [No] show the two outcomes. The response when access is denied is not specified in the scenario, so it is marked as needing confirmation. AD01 relates to FR01, FR05 and NFR02. The steps are candidates, to be confirmed with support staff (Q02).
+AD01 shows the process for displaying scheduled appointments, in line with UC01. First the user opens the schedule. Then they choose a date and the system checks their permissions. The resulting guards are [Yes] and [No]. The scenario does not define the response if no access is given, so in this case it is marked as a need for confirmation. AD01 relates to FR01, FR05 and NFR02. It contains candidate steps and needs to be confirmed with support staff (Q02).
 
 ### 3.4 Conceptual UML Class Diagram (CD01)
 
@@ -155,7 +158,7 @@ Figure CD01 illustrates the key concepts of the domain as found in the Student S
 
 ### 3.5 Model consistency check
 
-The models were checked against each other and against the requirements catalogue to find mismatches, gaps and new questions. The use case narrative (UC01) and activity diagram (AD01) agree. Both follow the same flow: open the schedule, select a date, check permission, then display appointments if permission is granted. Both trace to FR01, FR05 and NFR02. The class diagram (CD01) supports FR02, FR03 and FR04 through the SupportService and Appointment classes and the date and time attributes. However, modelling revealed several inconsistencies and gaps, summarised below.
+I compared the models with each other and with the requirements catalogue to identify inconsistencies, missing parts and new questions. The use case narrative (UC01) and the activity diagram (AD01) are consistent. They follow the same steps: first open the schedule, then choose a date, then check if you have permission, and if you have permission, show the appointments. They both relate to FR01, FR05 and NFR02. The class diagram (CD01) can support FR02, FR03 and FR04 through the SupportService and Appointment classes and the date and time attributes. But modelling also showed a lot of inconsistencies and missing parts, listed below.
 
 | Finding | Models affected | Action / status |
 |---|---|---|
@@ -169,13 +172,13 @@ The models were checked against each other and against the requirements catalogu
 | CD01 links staff to appointments only through AvailabilitySlot. If appointments can be booked outside published slots, Appointment would need a direct link to SupportStaff. | CD01 | Depends on Q05. Open. |
 | Student attributes in CD01 are assumed. NFR01 requires collecting only necessary data. | CD01, NFR01 | Confirm required student information (Q03). Open. |
 
-Overall, the models are consistent for the 'view appointments' flow, but modelling showed that the first version of the requirements focused too narrowly on staff viewing schedules. FR06–FR14 were added to cover availability, booking, appointment status, cancellation and confirmations, and the use case diagram was updated to match. The remaining open items depend on stakeholders confirming user roles, the cancellation and no-show policy, and the information to be recorded.
+So, there is some consistency in the models for the "view appointments" flow. However, after modelling it became clear that the initial requirements were too specific to the staff's view of the schedules. Therefore, FR06 to FR14 have been added (about availability, booking, status of the appointment, cancellation and confirmations) and the use case diagram has been updated. The pending points are stakeholder confirmation of the user roles, the cancellation/no-show policy and what should be logged.
 
 ## 4. Low-fidelity Prototype
 
 ### 4.1 Journey and purpose
 
-The prototype explores the journey of a student requesting an appointment with a student support service. It covers choosing a service, choosing an available time, checking their details, reviewing and sending the request, and then viewing their appointments. This journey was chosen because the model consistency check (Section 3.5) showed that the original models and requirements focused mainly on staff viewing scheduled appointments. The student side of the process, which is central to the problem described in Section 1, had not yet been explored. 
+The prototype shows the user flow for a student trying to book an appointment with a student support service. This flow includes the selection of a service, the selection of an available slot, the confirmation of user details, the review and submission of the request and, finally, the display of the student's appointments. I picked this user flow since the model consistency check (Section 3.5) revealed that in the original models/requirements a lot of attention had been given to the ability of staff to look at booked appointments. The user flow from the student's point of view, which is the core of the problem (Section 1), had not been considered yet.
 
 The prototype was used to investigate:
 - whether the booking steps are clear and in a sensible order
@@ -185,7 +188,7 @@ The prototype was used to investigate:
 - where cancellation and appointment status fit into the journey (FR11, FR12, Q01, Q04)
 - whether the screens raise accessibility concerns (NFR04)
 
-Requirements explored: FR02, FR03, FR04, FR06–FR14, NFR01, NFR04 and NFR06. I made the screens in draw.io as low-fidelity wireframes, in the same style as my Week 7 lab wireframes, so they are not a finished interface design. The service names, dates and times are example data only. A yellow note beside each screen links it to requirement IDs and open questions. Source file: [`Project_Prototype.drawio`](../prototype/Project_Prototype.drawio). Every screen, field and label is a candidate, to be confirmed with students and support staff. "Help me choose", "Cancel request" and the status labels are my own additions.
+Requirements investigated: FR02, FR03, FR04, FR06–FR14, NFR01, NFR04 and NFR06. Created with draw.io as a low-fidelity wireframe (similar to my Week 7 lab wireframes), not a completed interface design. Service names and dates/times are example data only. A yellow note next to each screen links it to requirement IDs and open questions. The source file, Project_Prototype.drawio, is in the project/prototype folder of the GitHub repo. All screens/fields/labels are possibilities to be checked with students and support staff. "Help me choose", "Cancel request" and the status labels were added by me.
 
 ### 4.2 Prototype screens
 
@@ -230,11 +233,11 @@ The six connected screens are shown below in the order a student would use them.
 | Consistency check against Q09 and US01 | Screen 5 said "Your appointment is booked", but it isn't confirmed whether booking is instant or needs staff approval (Q09). US01 AC2 says the screen should only say "booked" once that is confirmed. | Changed Screen 5 to "Request sent", Screen 4's button to "Send request", Screen 6's status to "Waiting for confirmation" and the overview label to "Request Sent!". Resolved. |
 | Self-review of the screen layout | Screen 3 had two "Next" buttons, so a student might not know which one to press. | Removed one of them. Resolved. |
 
-I did a self-review of all 6 screens against the requirements catalogue, NFR01 and some WCAG 2.2 criteria. No students, staff or other stakeholders were involved, so these are not stakeholder validation results.
+I self-reviewed all 6 screens against the requirements catalogue, NFR01 and some WCAG 2.2 criteria. No students/staff or other stakeholders were included, so these are not stakeholder validation results.
 
-I learned that I didn't include the students' side of the booking in the original requirements, so I added FR06–FR14. I also learned that Screen 3 could gather more personal information than necessary, so I added a warning. When I redrew the screens I changed Screen 5 to "Request sent" so it matches Q09, and I darkened the grey text because it was too light to read easily.
+I found that I had not included the student's booking point of view in the original requirements, so I added FR06–FR14. I also found that I might collect more personal data than needed in Screen 3, so I added a warning. On redrawing the screens, I changed Screen 5 to "Request sent" to align with Q09. I made the grey text darker, as it was too hard to read.
 
-I didn't confirm a lot of things that would need to be walked through with actual stakeholders, like: is booking instant or do we need staff approval? (FR08, Q09) What's the cancellation/no-show policy? (Q01, Q04) How long is the appointment, and where is it? (Q06, Q07) What student information do we need? (Q03)
+I didn't validate many aspects that would need a walkthrough with actual stakeholders. E.g. is it instant booking, or is staff approval required? (FR08, Q09) What's the cancellation/no-show policy? (Q01, Q04) What's the duration and location of an appointment? (Q06, Q07) What student data do we need? (Q03)
 
 
 ## 5. Quality / Non-functional Requirements
@@ -299,9 +302,11 @@ Priorities are provisional because only the scenario is available. Must means th
 | NFR04's statement said "applicable WCAG 2.2 Level AA success criteria", but its verification checked four named criteria, so the two did not match. | Statement reworded to name the four criteria (1.4.1, 1.4.3, 2.5.8 and 3.3.2), so it matches the verification. | Resolved |
 | FR08, FR11 and FR12 depend on rules nobody has supplied (Q09, Q04, Q01). | Kept as candidates and written so they can be checked once the rules are agreed. | Open |
 | FR02 and NFR02 depend on "agreed" information (service list, roles). | Confirm the service list and roles with support staff (Q02). | Open |
-| No requirement has been validated with real stakeholders. | Every requirement is marked "Candidate, to be confirmed with stakeholders". | Open |
+| No requirement has been validated with real stakeholders. | Requirements taken from Scenario B are marked "Based on Scenario B", and every new requirement is marked "Candidate (new, not in Scenario B), to be confirmed with stakeholders". | Open |
 
-The most important improvements were adding the student side of the booking (FR06–FR14) once modelling and prototyping showed it was missing, rewording requirements that could not be checked (NFR01 in Week 8, FR01 and NFR03 in Week 10), and changing the prototype so it no longer says an appointment is booked while that rule is unknown (Q09). I checked all of this myself against my models, labs and the brief, so it is self-review, not stakeholder validation. Before any requirement could be treated as agreed, support staff would need to answer Q01, Q02, Q04 and Q09, and students would need to try the prototype in a walkthrough. Until then, every requirement stays marked as a candidate.
+The main changes are the inclusion of the student side of booking (FR06–FR14), which modelling and prototyping showed was missing, the rephrasing of some requirements that were not testable (e.g. NFR01 in Week 8; FR01 and NFR03 in Week 10), and the change to the prototype so it does not say an appointment is booked when the rule is not known (Q09). I've personally checked all of this against my own models, labs and the project brief. It's self-review, not stakeholder validation.
+
+We need support staff to answer Q01, Q02, Q04 and Q09 before any requirement can be considered accepted. We also need students to use the prototype in a walkthrough. Until this happens, no requirement is accepted, and all of them remain "to be confirmed with stakeholders".
 
 ## 9. GitHub: evidence of evolving requirements work
 
@@ -314,8 +319,24 @@ Repository link: https://github.com/ahhsurelookit/Requirements-Engineering-Proje
 | 12 Nov 2026 (d7a0be0) | Section 4.3 walkthrough findings added to the report draft. | To record what the self-review of the six prototype screens found and what changed as a result. |
 | 16 Nov 2026 (b31e24c) | NFR01 refined to name the fields collected (student number, name, college email, optional comment). | "Agreed" information could not be verified because nothing had been agreed (Lab 8). |
 | 18 Nov 2026 (143d992, e7f85ab) | Prototype screens redrawn; Screen 5 changed to "Request sent" and "Waiting for confirmation"; catalogue updated to v0.5 (FR08, FR09, FR11, FR14, NFR05). | The first Screen 5 said "booked", which contradicted Q09 and US01 AC2. |
-| 25 Nov 2026 (31fe314, fc4d2f9) | FR01 and NFR03 reworded; CR01 trace corrected; every requirement marked "Candidate, to be confirmed with stakeholders"; Section 8 added. | The Lab 10 quality audit found FR01 used a vague actor and NFR03 could not be verified. No requirement had been confirmed by real stakeholders, so each one was marked as a candidate, as the brief says not to present unconfirmed information as agreed requirements. |
+| 25 Nov 2026 (31fe314, fc4d2f9) | FR01 and NFR03 reworded; CR01 trace corrected; every requirement marked "Candidate, to be confirmed with stakeholders"; Section 8 added. | The Lab 10 quality audit found FR01 used a vague actor and NFR03 could not be verified. No requirement had been confirmed by real stakeholders, so each one was marked as a candidate, as the brief says not to present unconfirmed information as agreed upon requirements. |
 
 ## 10. AI Use Record
 
 See [`../AI-USE-RECORD.md`](../AI-USE-RECORD.md). It is the same as Section 10 of the Word report.
+
+## Appendices
+
+### Appendix A: Supporting evidence and sources
+
+Sources used: the Scenario B description in the project brief; Practical Labs 1–10 (the College Equipment Booking and Campus Workshop Registration, Makerspace and Tree Care teaching cases); WCAG 2.2 success criteria 1.4.1, 1.4.3, 2.5.8 and 3.3.2 (W3C). Editable diagram files (.drawio), the prototype PDF and the requirements catalogue are in the GitHub repository.
+
+### Appendix B: Glossary
+
+| Term | Meaning for this project | Source / question |
+|---|---|---|
+| Appointment | A booked meeting between one student and a support service at a set date and time. | Scenario B; A01 (one student per appointment) |
+| Availability slot | A date and time a support staff member has said they are free for an appointment. | CD01, FR07; Q05 |
+| Request / booking | A student's request for an appointment. Whether it is confirmed straight away or needs staff approval is not known (Q09). | FR08; Q09 |
+| Support service | A college service students can book, e.g. academic support, careers advice or learning support. | Scenario B; FR02 |
+| Authorised user | A signed-in user whose role allows them to see appointment information. The exact roles are not confirmed. | FR05, NFR02; Q02 |
